@@ -1,0 +1,2047 @@
+: 1618386103:0;tmux list-keys
+: 1618386235:0;tmux help
+: 1618386239:0;tmux --help
+: 1618386248:0;tmux ?
+: 1618386251:0;tmux pane
+: 1618386253:0;tmux window
+: 1618386325:0;:q
+: 1618386328:0;exit
+: 1618387138:0;ll .zsh
+: 1618387153:0;ls -la .zsh/
+: 1618387197:0;cat .zprofile
+: 1618387224:0;ls .zprofile
+: 1618387241:0;rm .zprofile
+: 1618387303:0;ls .zsh
+: 1618387310:0;ls -la .zsh
+: 1618387331:0;git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+: 1618387508:0;cd .dotfiles
+: 1618387511:0;code -r .
+: 1618387845:0;mv .oh-my-zsh  .oh-my-zsh-backup
+: 1618388097:0;mv .oh-my-zsh-backup .oh-my-zsh
+: 1618388099:0;cd .oh-my-zsh
+: 1618388108:0;ls templates
+: 1618388122:0;cat templates/zshrc.zsh-template
+: 1618388469:0;cp .oh-my-zsh/themes .dotfiles/zsh
+: 1618388481:0;cp -r .oh-my-zsh/themes .dotfiles/zsh
+: 1618388934:0;cd .dotfiles/zsh
+: 1618388937:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git\
+
+: 1618388951:0;echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc\
+
+: 1618388975:0;less .zshrc
+: 1618389112:0;sudo apt-get install fonts-powerline\
+
+: 1618389316:0;git clone https://github.com/sindresorhus/pure.git
+: 1618389335:0;code .zshrc
+: 1618389448:0;code 
+: 1618389887:0;npm install --global pure-prompt
+: 1618389901:0;sudo npm install --global pure-prompt
+: 1618391610:0;dc
+: 1618391705:0;man tmux
+: 1618391858:0;cat ~/.vscode
+: 1618391867:0;gs ~/.vscode
+: 1618395396:0;cat ~/.bashrc
+: 1618395491:0;source ~/.zshrc
+: 1618395535:0;d rm $(d ps -a -q)
+: 1618395553:0;grunt 
+: 1618395609:0;cd ~/general/code/mdm-server 
+: 1618395631:0;alias ll="ls -la"
+: 1618395754:0;dpkg -i ~/Downloads/code_1.55.2-1618307277_amd64.deb
+: 1618395758:0;sudo dpkg -i ~/Downloads/code_1.55.2-1618307277_amd64.deb
+: 1618395787:0;ll ~/.local/share/icons
+: 1618396045:0;cd /usr/share/applications
+: 1618396049:0;xdg-open .
+: 1618396132:0;sudo vim org.gnome.Terminal.desktop
+: 1618396170:0;sudo vim com.alacritty.Alacritty.desktop
+: 1618396292:0;ll ~/.config/Code/User/settings.json
+: 1618396299:0;vim ~/.config/Code/User/settings.json
+: 1618396432:0;ls -la .config
+: 1618396754:0;rm zsh xkb xbindkeys X11 tmux termite systemd sway starship.toml rofi readline polybar pet nvim keymaps ideavim i3 gitui git fontconfig fcitx5 fcitx espanso environment.d efm-langserver dunst conky compton 'Code - Insiders' anyenv autokey bat
+: 1618396774:0;cd .config
+: 1618396789:0;sudo rm zsh xkb xbindkeys X11 tmux termite systemd sway starship.toml rofi readline polybar pet nvim keymaps ideavim i3 gitui git fontconfig fcitx5 fcitx espanso environment.d efm-langserver dunst conky compton 'Code - Insiders' anyenv autokey bat
+: 1618396827:0;cd Code
+: 1618396829:0;cd User
+: 1618396843:0;sudo rm settings.json keybindings.json
+: 1618401533:0;coffee 
+: 1618401596:0;nvm alias default v4.9.1
+: 1618401603:0;bash
+: 1618401606:0;zsh
+: 1618401616:0;nvm ls
+: 1618401628:0;nvm use mobivisor
+: 1618401661:0;nvm i -g coffeescript@1.10
+: 1618401710:0;which node
+: 1618401719:0;which npm
+: 1618401724:0;npm -v
+: 1618401855:0;ls -al /home/halilbrhmtrn/.nvm/versions/node/v4.9.1/bin/coffee
+: 1618401875:0;ls -al /home/halilbrhmtrn/.nvm/versions/node/v4.9.1/bin/lib/node_modules/coffee-script/bin/coffee
+: 1618401912:0;sudo npm i -g coffeescript@1.10
+: 1618401949:0;node -
+: 1618401975:0;cd lib/node_modules/
+: 1618401982:0;cd ../lib/node_modules/
+: 1618401989:0;cd coffee-script
+: 1618402000:0;./coffee -v
+: 1618402023:0;npm i -g coffeescript@1.10
+: 1618402039:0;/usr/local/bin/coffee -v
+: 1618402103:0;npm uninstall -g coffeescript
+: 1618402121:0;cd /home/halilbrhmtrn/.nvm/versions/node/v4.9.1/bin/
+: 1618402128:0;cd lib
+: 1618402132:0;cd node_modules
+: 1618402137:0;cd coffee-script/bin
+: 1618402141:0;ls -al
+: 1618402161:0;mv coffee-script ~/
+: 1618402163:0;c
+: 1618402167:0;which coffee
+: 1618402179:0;mkdir tmp
+: 1618402184:0;mv coffee-script tmp
+: 1618402701:0;cd ~/.config/Code
+: 1618402721:0;cd mdm-server/public/modules/devices
+: 1618402732:0;cd controllers
+: 1618402749:0;coffee -m devices.template.client.controller.coffee
+: 1618402779:0;coffee --help
+: 1618402797:0;cofeee -m -c devices.template.client.controller.coffee
+: 1618408982:0;cd code
+: 1618408990:0;ls
+: 1618408998:0;ls mdm-server
+: 1618409019:0;cd ~/general
+: 1618409087:0;dc ps 
+: 1618411968:0;cd public/modules/devices/controllers
+: 1618411980:0;coffee -v
+: 1618412002:0;coffee -m -c devices.template.client.controller.coffee
+: 1618417095:0;ga .
+: 1618417099:0;;1R
+: 1618417375:0;git commit -m "fix: #3615 broken filter results on virtual property modelMake"
+: 1618417397:0;git push origin "#3615"
+: 1618485489:0;code . 
+: 1618485703:0;git checkout -b "mdm-32" master
+: 1618486371:0;cd bin
+: 1618486706:0;./robo3t
+: 1618518066:0;pavucontrol
+: 1618555488:0;vim ~/.zshrc
+: 1618555553:0;ls -la ~/.dotfiles
+: 1618555560:0;ls -la ~/.dotfiles/zsh
+: 1618555625:0;vim ~/.dotfiles/zsh/.aliases
+: 1618555825:0;cd ~
+: 1618557286:0;node --inspect scripts/backup_all_tenants_db.js
+: 1618557506:0;node inspect scripts/backup_all_tenants_db.js
+: 1618560629:0;mongorestore
+: 1618560813:0;tar -xvf clone_dump_2021.04.16_11.05.02.mongodump.tar.gz
+: 1618560820:0;cd dump
+: 1618560852:0;mongorestore dump
+: 1618561021:0;mv dump tenants
+: 1618561027:0;mongorestore tenants
+: 1618561129:0;mongorestore tenants tenants
+: 1618561180:0;mongorestore -d tenants tenants
+: 1618561200:0;robo3t
+: 1618561465:0;cd tenants
+: 1618561876:0;NODE_ENV=admin node admin.js
+: 1618569865:0;node scripts/backup_all_tenants_db.js
+: 1618569886:0;node scripts/backup_all_tenants_db.js tenants
+: 1618571419:0;node scripts/backup_all_tenants_db.js 
+: 1618572324:0;git restore --staged scripts/backup_all_tenants_db.js
+: 1618572372:0;git add scripts/backup_all_tenants_db.js
+: 1618572431:0;git commit -m "fix: disable backup for inactive(license expired) tenants)
+: 1618572436:0;git commit -m "fix: disable backup for inactive(license expired) tenants)"
+: 1618572466:0;git push origin "mdm-32"
+: 1618575128:0;git checkout -b "mdm-26"
+: 1618744916:0;apt remove gamemode --autoremove
+: 1618744921:0;sudo apt remove gamemode --autoremove
+: 1618745056:0;mkdir libraries
+: 1618745058:0;cd libraries
+: 1618745135:0;wget http://ftp.us.debian.org/debian/pool/main/g/gamemode/gamemode_1.6.1-1_amd64.deb http://ftp.us.debian.org/debian/pool/main/g/gamemode/gamemode-daemon_1.6.1-1_amd64.deb http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemode0_1.6.1-1_amd64.deb http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemodeauto0_1.6.1-1_amd64.deb http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemode0_1.6.1-1_i386.deb http://ftp.us.debian.org/debian/pool/main/g/gamemode/libgamemodeauto0_1.6.1-1_i386.deb
+: 1618745169:0;apt install -f *
+: 1618745173:0;sudo apt install -f *
+: 1618745224:0;sudo apt-get install libinih1
+: 1618745240:0;dpkg -i *
+: 1618745243:0;sudo dpkg -i *
+: 1618745251:0;reboot
+: 1618749112:0;dpkg --add-architecture i386; apt update\
+\
+
+: 1618749116:0;sudo dpkg --add-architecture i386; apt update\
+\
+
+: 1618749128:0;sudo dpkg --add-architecture i386; sudo apt update\
+\
+
+: 1618749202:0;wineserver -k
+: 1618749209:0;wineserver -k9
+: 1618749801:0;wget -nc https://dl.winehq.org/wine-builds/winehq.key\
+
+: 1618749807:0;sudo apt-key add winehq.key\
+
+: 1618749829:0;uname -a
+: 1618749832:0;uname
+: 1618749839:0;cat /etc/lsb-release
+: 1618749842:0;sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ groovy main'\
+
+: 1618749855:0;sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport\
+
+: 1618749881:0;sudo apt-get install --install-recommends winehq-staging\
+
+: 1618761075:0;sudo lshw -c video
+: 1618761139:0;cat /usr/lib/nux/
+: 1618821875:0;docker-compose restart
+: 1618822586:0;cat /etc/NetworkManager/system-connections/SUPERONLINE_WiFi_3257.nmconnection
+: 1618822594:0;sudo cat /etc/NetworkManager/system-connections/SUPERONLINE_WiFi_3257.nmconnection
+: 1618822633:0;sudo cat /etc/NetworkManager/system-connections/SUPERONLINE_WiFi_3257.nmconnection | grep -r psk
+: 1618822643:0;sudo cat /etc/NetworkManager/system-connections/SUPERONLINE_WiFi_3257.nmconnection | grep -R psk
+: 1618822651:0;sudo cat /etc/NetworkManager/system-connections/SUPERONLINE_WiFi_3257.nmconnection | grep psk
+: 1618831120:0;cd general/linux
+: 1618831126:0;ls -la
+: 1618831130:0;ls -alh
+: 1618843385:0;cd public/modules/appSearcher/services
+: 1618843401:0;coffee -m -c appSearcher.client.service.coffee
+: 1618901248:0;sudo apt-get update && sudo apt-get upgrade
+: 1618903862:0;git diff 0ba85fdc0
+: 1618903955:0;git commit -m "fix: mdm-26#bug at show version button, icons disappear"
+: 1618903962:0;git diff HEAD
+: 1618903976:0;git diff 0dfdaae27
+: 1618904011:0;git diff 
+: 1618904092:0;git push origin "mdm-26"
+: 1618914511:0;cat /dev/random
+: 1618914527:0;/dev/random
+: 1618914531:0;sudo /dev/random
+: 1618914546:0;echo < /dev/random
+: 1618918301:0;echo *
+: 1618918314:0;echo at*
+: 1618918320:0;echo *al
+: 1618918326:0;echo Do*
+: 1618918361:0;echo *.*
+: 1618918393:0;echo co?e
+: 1618918406:0;echo '*'
+: 1618919634:0;grep root /etc/passwd
+: 1618919650:0;grep root /etc/*
+: 1618920036:0;grep ie /usr/share/dict/words | less
+: 1618920102:0;cd .zsh
+: 1618920109:0;pwd -P
+: 1618920138:0;diff .yarnrc yarn.lock
+: 1618920147:0;cat .yarnrc
+: 1618920160:0;cat yarn.lock
+: 1618920402:0;ll tmp
+: 1618920407:0;ll tmp/coffee-script
+: 1618920436:0;find . -name register -print
+: 1618920452:0;find . -name register.js -print
+: 1618920464:0;sudo find . -name register.js -print
+: 1618920476:0;sudo find . -name register.js -print | grep register
+: 1618920507:0;find /tmp -iname register 
+: 1618920515:0;find /tmp -iname register -print
+: 1618920518:0;sudo find /tmp -iname register -print
+: 1618920558:0;sudo find ./tmp -iname register
+: 1618920561:0;sudo find ./tmp -iname register -print
+: 1618920586:0;sudo find ./tmp -name register 
+: 1618920590:0;sudo find ./tmp -name register  -print
+: 1618921015:0;head /etc/passwd
+: 1618921028:0;tail /etc/passwd
+: 1618921046:0;head -5 /etc/passwd
+: 1618922088:0;echo .[^.]*
+: 1618922103:0;echo .??*
+: 1618922239:0;echo PATH
+: 1618922248:0;echo $PATH
+: 1618922256:0;echo --colored
+: 1618923663:0;this is a predictive command line 
+: 1618923849:0;man -k l
+: 1618923856:0;man -k youtube
+: 1618923862:0;man -k list
+: 1618923868:0;man ls
+: 1618923895:0;man -k sort
+: 1618924106:0;man passwd
+: 1618924170:0;man 2 passwd
+: 1618924174:0;man 1 passwd
+: 1618924183:0;man 5 passwd
+: 1618924189:0;man 3 passwd
+: 1618924195:0;man 4 passwd
+: 1618924207:0;pacman
+: 1618924210:0;pacman 
+: 1618924215:0;man 6 pacman
+: 1618924229:0;man 6 passwd
+: 1618924233:0;man 7 passwd
+: 1618924237:0;man 8 passwd
+: 1618924309:0;ls --help
+: 1618924313:0;passwd --help
+: 1618924335:0;info man
+: 1618924341:0;info passwd
+: 1618924882:0;info passwd | less
+: 1618924959:0;head /proc/cpuinfo
+: 1618924980:0;head /proc/cpuinfo | tr a-z A-Z
+: 1618925023:0;ls /ffffffffffff > f
+: 1618925026:0;cat f 
+: 1618925051:0;ls /ffffffffffffffff > f 2>f
+: 1618925099:0;cat qwefqweqweffqwe > f 2>&1
+: 1618925134:0;ls /ffffffffffffffff >> f 2>&1
+: 1618925549:0;head < /proc/cpuinfo
+: 1618929154:0;ps
+: 1618929185:0;ps x
+: 1618929192:0;ps ax
+: 1618929201:0;ps u
+: 1618929218:0;ps w
+: 1618929279:0;kill -STOP 12926
+: 1618929299:0;kill -CONT 12926
+: 1618929304:0;ps wu
+: 1618929867:0;cat 
+: 1618929878:0;echo
+: 1618929893:0;echo < 
+: 1618929907:0;zcat
+: 1618929924:0;node
+: 1618929935:0;fg 1
+: 1618929950:0;info jobs
+: 1618929958:0;man jobs
+: 1618929963:0;jobs --help
+: 1618929966:0;jobs -h
+: 1618929972:0;jobs -l
+: 1618929994:0;fg 90454
+: 1618930006:0;jobs -d
+: 1618930019:0;jobs %cat
+: 1618930028:0;fg %cat
+: 1618931225:0;fg
+: 1618931229:0;jobs
+: 1618931233:0;nohup -h
+: 1618931239:0;nohup --help
+: 1618931316:0;cat
+: 1618931344:0;nope
+: 1618931545:0;ls -l
+: 1618931986:0;groups
+: 1618932270:0;chmod go-r f
+: 1618932280:0;chmod go+r f
+: 1618932283:0;ls -l f
+: 1618989229:0;ll Downloads
+: 1618989268:0;tar -tvf ~/Downloads/android-studio-ide-201.7199119-linux.tar.gz
+: 1618991299:0;ll /run
+: 1618991368:0;ll /var
+: 1618991383:0;ll /sys
+: 1618991396:0;ll /sbin
+: 1618991409:0;ll /sbin/
+: 1618991643:0;ll /boot
+: 1618992657:0;ll /usr
+: 1618992693:0;cd .dotfiles/zsh/zsh-autocomplete
+: 1618992711:0;cat .zshrc
+: 1618992735:0;vim zsh-autocomplete.plugin.zsh
+: 1618992786:0;ll completion
+: 1618992810:0;cat completion/_autocomplete.command
+: 1618992823:0;cat completion/_autocomplete.compadd_opts_len
+: 1618992837:0;cat README.md
+: 1618993851:0;cd zsh-autocomplete
+: 1618993865:0;git switch main;
+: 1618993927:0;rm -rf $_comp_dumpfile $XDG_CACHE_HOME/zsh
+: 1618994053:0;vim .zshrc.backup
+: 1618994077:0;vim .zshrc
+: 1618994480:0;ll .dotfiles/zsh
+: 1618994499:0;git clone https://github.com/zsh-users/zsh-autosuggestions 
+: 1618994518:0;source zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+: 1618994525:0;echo 'something'
+: 1618994729:0;echo '~/.dotfiles/zsh/zsh-autocomplete
+: 1618994812:0;ll /usr/share
+: 1618994832:0;ll /usr/
+: 1618994859:0;ll /usr/share/man
+: 1618994864:0;ll /usr/share/info
+: 1618994915:0;ll /lib/modules
+: 1618997662:0;journalctl SYSLOG_IDENTIFIER=sudo
+: 1619002137:0;ll /sys/devices
+: 1619002166:0;ll /sys/devices/pci0000:00/0000:00:00.2/iommu/ivhd0/amd-iommu/cap bin/go-outline
+: 1619002300:0;ll /sys/block
+: 1619002415:0;udevadm info --query=all --name=/dev/sda
+: 1619002431:0;udevadm info --query=all --name=/dev/nvme0n1 
+: 1619002449:0;udevadm info --query=all --name=/dev/*
+: 1619002453:0;udevadm info --query=all --name=/dev
+: 1619002456:0;udevadm info --query=all --name=/dev/
+: 1619002586:0;dd if=/dev/zero of=new_file bs=1024 count=1
+: 1619002599:0;cat new_file
+: 1619002697:0;echo "input halil" < dd
+: 1619002708:0;dd < "input halil"
+: 1619002721:0;echo "input halil" | dd
+: 1619003469:0;g stash
+: 1619003686:0;git checkout -b "mdm-41"
+: 1619006513:0;grunt -help
+: 1619006521:0;grunt --help
+: 1619006537:0;grunt --help | more
+: 1619008066:0;grunt kibana
+: 1619008712:0;cd general/code
+: 1619008753:0;cd scripts
+: 1619008756:0;cd 
+: 1619008933:0;docker pull
+: 1619008952:0;docker pull mysql:5.27.23
+: 1619008976:0;docker pull grafana/grafana:4.6.3
+: 1619009029:0;docker rmi node-app installation_web dgkanatsios/simpleapp
+: 1619009034:0;docker image
+: 1619009038:0;docker images
+: 1619011382:0;ll code
+: 1619011390:0;ll code/mdm-server
+: 1619011397:0;sudo rm -rf code
+: 1619011699:0;docker run --log-opt max-size=100m --restart=always --name elasticsearch -d -v ./elasticsearchgdata:/usr/share/elasticsearch/data -v ./config/external/elasticsearch:/usr/share/elasticsearch/config -p 127.0.0.1:9200:9200 elasticsearch:2.4.1
+: 1619011790:0;docker run --log-opt max-size=100m --restart=always --name elasticsearch -d -v /home/halilbrhmtrn/general/code/mdm-server/elasticsearchgdata:/usr/share/elasticsearch/data -v /home/halilbrhmtrn/general/code/mdm-server/config/external/elasticsearch:/usr/share/elasticsearch/config -p 127.0.0.1:9200:9200 elasticsearch:2.4.1
+: 1619012844:0;dockerdocker    docker ps
+: 1619012974:0;docker run --log-opt max-size=100m --restart=always --name=mysqlgrafana -p 127.0.0.1:3306:3306 -p 127.0.0.1:33060:33060 -v /var/lib/mysqlgrafana:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=grfnMysql18 -d mysql:5.7.23
+: 1619013127:0;docker exec -it df8c38089f53 mysql
+: 1619013168:0;docker exec -it df8c38089f53 mysql -u root -p -h 127.0.0.1 -e "CREATE DATABASE grafana;"
+: 1619013874:0;	    wget https://bootstrap.pypa.io/get-pip.py\
+
+: 1619013948:0;mv get-pip.py.1 get-pip.py
+: 1619015199:0;	    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+: 1619015206:0;rm get-pip.py
+: 1619016746:0;node grafana-server.js
+: 1619018019:0;ack process.args
+: 1619018024:0;grep process.args app
+: 1619018027:0;grep process.args scripts
+: 1619018037:0;grep args scripts
+: 1619018047:0;grep process scripts
+: 1619018062:0;grep -R process scripts
+: 1619018261:0;docker run grafana/grafana:4.6.3 -p 127.0.0.1:5602:3000
+: 1619018282:0;docker run -d grafana/grafana:4.6.3 -p 127.0.0.1:5602:3000
+: 1619018373:0;docker run -d grafana/grafana:4.6.3 -p 5602:3000
+: 1619018412:0;d stop 31cfe959a2a3 rant_shaw
+: 1619018435:0;d stop vibrant_shaw
+: 1619079333:0;journalctl -k
+: 1619079372:0;cat /proc/devices
+: 1619079541:0;lsscsi
+: 1619079567:0;lspci
+: 1619079740:0;nvme list
+: 1619083946:0;cd mdm_export
+: 1619083964:0;cd config/external
+: 1619083970:0;l
+: 1619084577:0;d stop df75386227b7
+: 1619084615:0;docker run -d -p 5602:5602 --name grafana -e "GF_SERVER_HTTP_PORT=5602" grafana/grafana:4.6.3
+: 1619086855:0;docker run -d -p 5602:5602 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_PATHS_CONFIG=/etc/grafana/grafana-docker.ini" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" grafana/grafana:4.6.3
+: 1619088469:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619088546:0;docker rm grafana grafanamys 
+: 1619088550:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_PATHS_CONFIG=/etc/grafana/grafana-docker.ini" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" grafana/grafana:4.6.3
+: 1619088563:0;d ps -a
+: 1619088590:0;docker login grafanamys
+: 1619089770:0;..
+: 1619089780:0;cd mdm-server
+: 1619089783:0;cd external
+: 1619089786:0;cd grafana
+: 1619089792:0;vim grafana.ini
+: 1619089831:0;sudo vim grafana.ini
+: 1619089885:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" grafana/grafana:4.6.3
+: 1619089901:0;docker logs grafanamys
+: 1619089943:0;docker rm grafanamys
+: 1619089949:0;docker stop mysqlgrafana
+: 1619090008:0;docker rm mysqlgrafana
+: 1619090829:0;docker down mysqlgrafana
+: 1619090838:0;docker stop mysqlgrafana elasticsearch
+: 1619090911:0;sudo code .
+: 1619090974:0;sudo code . --user-data-dir
+: 1619091179:0;cd config
+: 1619091181:0;pwd
+: 1619091359:0;cd ..
+: 1619091404:0;d logs mdm-server-grafana_1
+: 1619091437:0;docker logs mdm-server_mysql_1
+: 1619091614:0;d rm  docker rm $(docker ps -a -q)
+: 1619091634:0;docker ps -a -q
+: 1619091726:0;docker-compose up
+: 1619091750:0;dc ps7
+: 1619091758:0;docker logs grafa
+: 1619091901:0;ll config/external/grafana/grafana.ini
+: 1619091909:0;cat config/external/grafana/grafana.ini
+: 1619092368:0;docker exec -it mdm-server_mysql_1 mysql -u root -p -h 127.0.0.1 -e "CREATE DATABASE grafana;"
+: 1619092403:0;docker-compose down
+: 1619092425:0;docker rm $(docker ps -a -q)
+: 1619092445:0;docker run --log-opt max-size=100m --restart always --name mysqlgrafana -p 127.0.0.1:3306:3306 -p 127.0.0.1:33060:33060 -v /var/lib/mysqlgrafana:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=grfnMysql18 -d mysql:5.7.23
+: 1619092469:0;docker exec -it mdm-server_mysql_1 mysql -u root -p -h 127.0.0.1 -e "CREATE DATABASE grafana;";
+: 1619092489:0;docker exec -it mysqlgrafana mysql -u root -p -h 127.0.0.1 -e "CREATE DATABASE grafana;";
+: 1619092515:0;docker-compose up -d
+: 1619092531:0;docker logs mdm-server_grafana_1
+: 1619092958:0;d logs mdm-server_grafana_1
+: 1619101394:0;d ps 
+: 1619101440:0;ll f
+: 1619101443:0;cat f
+: 1619102801:0;touch f
+: 1619102820:0;cle
+: 1619208702:0;sudo apt-get --purge remove wine\
+
+: 1619208711:0;cd $HOME\
+
+: 1619208716:0;rm -r .wine\
+
+: 1619208719:0;sudo rm -r .wine\
+
+: 1619208723:0;rm .config/menus/applications-merged/wine*\
+
+: 1619208728:0;rm -r .local/share/applications/wine\
+
+: 1619208733:0;rm .local/share/desktop-directories/wine*\
+
+: 1619208737:0;rm .local/share/icons/????_*.xpm\
+
+: 1619208745:0;sudo apt-get remove --purge wine\
+
+: 1619208751:0;sudo apt-get update\
+
+: 1619208760:0;sudo apt-get autoclean\
+
+: 1619208765:0;sudo apt-get clean\
+
+: 1619208769:0;sudo apt-get autoremove\
+
+: 1619208785:0;sudo apt-get --purge remove lutris
+: 1619208810:0;ll Games
+: 1619210252:0;cd general
+: 1619210266:0;git clone https://github.com/Aykutfgoktas/logo.git
+: 1619210320:0;cd logo
+: 1619256381:0;fdisk
+: 1619256390:0;fdsik --help
+: 1619256395:0;fdisk --help
+: 1619256401:0;fdisk -l
+: 1619256405:0;sudo fdisk -l
+: 1619267040:0;cd
+: 1619267053:0;vim .git-credentials
+: 1619267240:0;git config credential.helper store
+: 1619267271:0;cd ~/general/sporsal-backend
+: 1619267311:0;nvm
+: 1619267347:0;nvm alias -list
+: 1619267368:0;nvm 
+: 1619267371:0;nvm | grep alias
+: 1619267477:0;nvm alias
+: 1619267544:0;npm start dev
+: 1619267585:0;dc up
+: 1619267592:0;dc down
+: 1619267594:0;dc ps
+: 1619267596:0;d ps
+: 1619267602:0;dc up -d
+: 1619281459:0;docker ps
+: 1619281505:0;docker exec sporsal_postgres postgres
+: 1619281514:0;sudo docker exec sporsal_postgres postgres
+: 1619281601:0;sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add\
+
+: 1619281611:0;sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'\
+
+: 1619281739:0;sudo apt-get update --fix-missing
+: 1619281748:0;sudo apt install pgadmin4\
+
+: 1619287832:0;git status
+: 1619287840:0;git log -p master
+: 1619288006:0;git stash pop
+: 1619288522:0;git reset --merge
+: 1619288709:0;git merge --abort
+: 1619288771:0;git reset --hard HEAD\
+
+: 1619288789:0;git log *p
+: 1619288900:0;git stash 
+: 1619288904:0;git stash list
+: 1619288925:0;git merge master 
+: 1619289308:0;git commit -m "merge master into onesignal"
+: 1619289314:0;git merge master
+: 1619290052:0;npm i
+: 1619290062:0;npm run start:dev
+: 1619294143:0;cd general/sporsal-backend
+: 1619294168:0;git commit -m "push notifications continue"
+: 1619294267:0;git push 
+: 1619294278:0;git checkout onesignal
+: 1619294287:0;git push onesignal
+: 1619294294:0;git push "onesignal"
+: 1619294300:0;git push
+: 1619294318:0;git pull
+: 1619294330:0;git pull origin onesignal
+: 1619294538:0;git push origin onesignal
+: 1619295117:0;git checkout -b invite
+: 1619295452:0;nvm use latest
+: 1619295456:0;nvm use stable
+: 1619295480:0;npm i -g @nestjs/cli
+: 1619295509:0;sudo npm i -g @nestjs/cli
+: 1619295589:0;nest g module invite
+: 1619298914:0;nest g service invite
+: 1619357321:0;apt-cache search yum
+: 1619357436:0;ll /var/log
+: 1619357455:0;cat /var/log/auth.log
+: 1619358159:0;lsmod
+: 1619358670:0;cd Downloads
+: 1619358678:0;dpkg -i steam_latest.deb
+: 1619358681:0;sudo dpkg -i steam_latest.deb
+: 1619377519:0;hostnamectl set-hostname halilbrhmtrn
+: 1619377718:0;hostnamectl set-hostname halilbrhmtrn-ThinkPad-E15-Gen-2
+: 1619377720:0;hostname
+: 1619377725:0;hostnamectl
+: 1619377747:0;ip link
+: 1619418395:0;cd general/code/mdm-server
+: 1619418413:0;grunt &
+: 1619419676:0;ifconfig
+: 1619422700:0;node -v
+: 1619422748:0;sudo git checkout -- .
+: 1619422767:0;git restore .
+: 1619422779:0;sudo git restore .
+: 1619423891:0;git commit -m "refactor deprecating code"
+: 1619423897:0;gs HEAD
+: 1619423923:0;gc master
+: 1619423934:0;git pull origin
+: 1619423967:0;git checkout
+: 1619423977:0;git checkout "#3610"
+: 1619424041:0;git commit -m "fix wrong commit"
+: 1619424053:0;git push origin "#3610"
+: 1619424152:0;git update-index --skip-worktree config/env/development.js
+: 1619424171:0;git checkout master
+: 1619425830:0;git checkout \#3567
+: 1619425843:0;git checkot "#3567"
+: 1619425914:0;git update-index --no-skip-worktree config/env/development.js
+: 1619426270:0;ll .git/info/exclude
+: 1619426281:0;vim .git/info/exclude
+: 1619426470:0;vim ~/.gitconfig
+: 1619426534:0;git exclude config/env/development.js
+: 1619426548:0;cat .git/info/exclude
+: 1619427132:0;lsof -i:3000
+: 1619427148:0;kill -9 69660
+: 1619431725:0;git stash
+: 1619431744:0;git stash apply
+: 1619432695:0;clear
+: 1619432803:0;git commit -m "fix: open feature list in kiosk mode by default"
+: 1619433213:0;git add public/modules/samsungKioskModes/views/samsung.kiosk.modes.addition.client.view.html
+: 1619433267:0;git commit -m "fix: click to a package name, it looks like another application is clicked."
+: 1619446741:0;git diff
+: 1619446826:0;git add .
+: 1619446923:0;git commit -m "fix: kiosk mode search modal should only show Android tab"
+: 1619448268:0;gd
+: 1619448295:0;git add . 
+: 1619448361:0;git commit -m "search modal only show Android tab"
+: 1619449357:0;git add public/modules/iosAppNotificationSettings/views/ios.app.notification.settings.addition.client.view.html
+: 1619449369:0;git commit -m "fix: iOS App Notification: Application search is not added to this page and it is only for iOS"
+: 1619451702:0;git add public/modules/systemUpdatePolicies/views/templates/system.update.policies.addition.template.client.view.html
+: 1619451753:0;git commit -m "fix: System Update Policy - Scheduled Update"
+: 1619451756:0;git log
+: 1619451802:0;git push origin "#3567"
+: 1619523778:0;dc restart
+: 1619523789:0;code .
+: 1619523795:0;grunt
+: 1619534174:0;cd ~/general/code/mdm-server
+: 1619534184:0;git add public/modules/exchangeConfigs/views/exchange.configurations.addition.client.view.html
+: 1619534226:0;git commit -m "fix: Exchange Configuration broken view in add modal"
+: 1619534380:0;git add config/env/development.js
+: 1619534433:0;git clean -df
+: 1619534437:0;sudo git clean -df
+: 1619534451:0;git checkout -- .
+: 1619534464:0;git restore --staged config/env/development.js
+: 1619534704:0;git checkout "#3561"
+: 1619534708:0;gs
+: 1619535128:0;git checkout "#3567"
+: 1619535130:0;git lop
+: 1619535134:0;git log 
+: 1619538080:0;git log -p
+: 1619582943:0;ll
+: 1619584254:0;dc 
+: 1619584277:0;tmux
+: 1619584344:0;exit\
+
+: 1619584408:0;tmux list-keys
+: 1619584487:0;kitty
+: 1619584497:0;sudo apt-get install kitty
+: 1619584526:0;ll
+: 1619584627:0;cd ~/general/code/mdm-server
+: 1619584629:0;ll
+: 1619584673:0;sudo apt-remove alacritty
+: 1619584681:0;sudo apt remove alacritty
+: 1619584690:0;sudo apt purge alacritty
+: 1619584725:0;ll
+: 1619584738:0;cd ~/general/code/mdm-server
+: 1619584764:0;dc restart
+: 1619584777:0;grunt
+: 1619584964:0;cd ~/general/code/mdm-server
+: 1619584966:0;ll
+: 1619584968:0;gs
+: 1619584986:0;git add .
+: 1619584988:0;gs
+: 1619585031:0;git restore --staged config/elasticsearchgdata
+: 1619585032:0;gs
+: 1619585050:0;git clean -df
+: 1619585057:0;sudo git clean -df
+: 1619585076:0;git checkout -- .
+: 1619585077:0;gs
+: 1619585230:0;git stash
+: 1619585231:0;gs
+: 1619585256:0;git stash apply
+: 1619585262:0;git stash drop
+: 1619585264:0;gs
+: 1619585269:0;git stash list
+: 1619585276:0;git stash drop
+: 1619585277:0;gs
+: 1619585282:0;git stash list
+: 1619585337:0;gs
+: 1619585394:0;git add config/env/development.js
+: 1619585398:0;gs
+: 1619585402:0;git stash
+: 1619585403:0;gs
+: 1619585408:0;git stash apply
+: 1619585561:0;git add config/env/development.js
+: 1619585562:0;gs
+: 1619585572:0;git stash --keep-index
+: 1619585573:0;gs
+: 1619586996:0;git stash apply
+: 1619586997:0;gs
+: 1619587010:0;git add public/modules/core/services/menus.client.service.js
+: 1619587013:0;gs
+: 1619587087:0;git stash --keep-index
+: 1619587089:0;gs
+: 1619587394:0;git stash show
+: 1619587407:0;git stash apply
+: 1619587416:0;git stash drop
+: 1619587423:0;git stash drop 
+: 1619587440:0;git stash drop
+: 1619587469:0;git log -p
+: 1619587541:0;code .
+: 1619591029:0;gs
+: 1619591060:0;git restore --staged .
+: 1619591061:0;gs
+: 1619591085:0;git add . public/modules/inhouseVpnConfigs/views/inhouse.vpn.configuration.addition.client.view.html
+: 1619591085:0;gs
+: 1619591114:0;git commit -m "fix:inhouse vpn broken views on add modal"
+: 1619591115:0;gs
+: 1619591117:0;git log -p
+: 1619591144:0;gs
+: 1619591225:0;git reset 52fcdd84d
+: 1619591227:0;gs
+: 1619591231:0;git log -p
+: 1619591249:0;git stash list
+: 1619591263:0;git add public/modules/inhouseVpnConfigs/views/inhouse.vpn.configuration.addition.client.view.html
+: 1619591263:0;gs
+: 1619591309:0;git commit -m "revert last commit. fix broken inhouse.vpn ui on add modal"
+: 1619591310:0;gs
+: 1619591313:0;git log -p
+: 1619591332:0;gs
+: 1619591335:0;clear
+: 1619592374:0;gs
+: 1619592384:0;git add public/modules/policies/services/android.policy.features.service.js
+: 1619592385:0;gs
+: 1619592431:0;git commit -m "fix: compliance whitelist add modal opens call.blacklist"
+: 1619592431:0;gs
+: 1619593038:0;git add public/modules/violations/controllers/violations.client.controller.js
+: 1619593039:0;gws
+: 1619593039:0;gs
+: 1619593076:0;git commit -m "fix: unnecessary scroll removed from violation addition"
+: 1619593077:0;gs
+: 1619593949:0;<div ng-if="!(item.route === 'blacklistRules' &amp;&amp; item.OSType !== 'Android' &amp;&amp; item.OSType !== 'Both')" class="checkbox" ng-repeat="item in ::selectedFeature.availableOptionsFromCallback | sortByChecklistModel:selectedFeature.selectedOptions:selectedFeature.getItemValueFromProperty track by $index" tooltip=""><label><input type="checkbox" name="selectedCheckboxes[]" ng-checked="policyAddCtrl.isOptionSelected(selectedFeature,item)" checklist-comparator="policyAddCtrl.decideOnAndReturnFeatureComparator(selectedFeature, item)" checklist-value="(item.route === 'exchangeconfigurations') ? item._id : item.rule || item" class="marginTop2 checklist androidFeatureChecklist handCursor ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" ng-model="checked" checklist-model="selectedFeature.selectedOptions" checked="checked" style=""> com.android.chrome</label><!----></div>
+: 1619593971:0;git diff <div ng-if="!(item.route === 'blacklistRules' &amp;&amp; item.OSType !== 'Android' &amp;&amp; item.OSType !== 'Both')" class="checkbox" ng-repeat="item in ::selectedFeature.availableOptionsFromCallback | sortByChecklistModel:selectedFeature.selectedOptions:selectedFeature.getItemValueFromProperty track by $index" tooltip=""><label><input type="checkbox" name="selectedCheckboxes[]" ng-checked="policyAddCtrl.isOptionSelected(selectedFeature,item)" checklist-comparator="policyAddCtrl.decideOnAndReturnFeatureComparator(selectedFeature, item)" checklist-value="(item.route === 'exchangeconfigurations') ? item._id : item.rule || item" class="marginTop2 checklist androidFeatureChecklist handCursor ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" ng-model="checked" checklist-model="selectedFeature.selectedOptions"
+: 1619593978:0;vim a
+: 1619596654:0;gs
+: 1619596658:0;git diff
+: 1619598135:0;robo3t
+: 1619598419:0;ll
+: 1619599705:0;d ps
+: 1619599719:0;d exec -it mdm-server_mongo_1 bash
+: 1619599754:0;cd Downloads
+: 1619602577:0;sudo update-alternatives --config x-terminal-emulator
+: 1619602891:0;LL
+: 1619602892:0;GS
+: 1619602893:0;gs
+: 1619602898:0;gd
+: 1619604287:0;gs
+: 1619604299:0;git add public/modules/policies/views/templates/features.to.restrict.policy.template.client.view.html
+: 1619604301:0;gs
+: 1619604354:0;git commit -m "remove laggy not working sorting checklist"
+: 1619604355:0;gs
+: 1619604374:0;git push origin "#3567"
+: 1619604517:0;ll
+: 1619604518:0;gs
+: 1619604556:0;git checkout mdm-26
+: 1619604562:0;git checkout "mdm-26"
+: 1619604568:0;git stash list
+: 1619604591:0;git stash
+: 1619604594:0;git checkout "mdm-26"
+: 1619604599:0;git stash pop
+: 1619604604:0;g stash list
+: 1619604762:0;grunt --help
+: 1619604778:0;grunt --help | grep coffee
+: 1619604833:0;grunt --help | grep -r coffee
+: 1619604839:0;grunt --help | grep -R coffee
+: 1619604862:0;grunt --help | grep  "coffee"
+: 1619604869:0;clear
+: 1619604871:0;grunt --help
+: 1619605099:0;gs
+: 1619605309:0;sgs
+: 1619605309:0;gs
+: 1619605398:0;git log -p
+: 1619605552:0;gs
+: 1619605598:0;git add --interactive
+: 1619605625:0;git add --verbose 
+: 1619605636:0;git add . --verbose 
+: 1619605642:0;gs
+: 1619605676:0;git restore --staged config/env/development.js public/modules/core/services/menus.client.service.js
+: 1619605677:0;gs
+: 1619605716:0;git commit -m "update js maps of coffee files"
+: 1619605716:0;gs
+: 1619605721:0;git log -p
+: 1619605814:0;git pull
+: 1619605827:0;git pull origin "mdm-26"
+: 1619605891:0;git push origin "mdm-26"
+: 1619606742:0;git log -p
+: 1619606747:0;git log
+: 1619606780:0;git reset 114dc4892
+: 1619606782:0;gs
+: 1619606908:0;git restore .
+: 1619606908:0;gs
+: 1619606952:0;git stash list
+: 1619608406:0;gs
+: 1619608419:0;git pull origin "mdm-26"
+: 1619608423:0;gs
+: 1619608688:0;git checkout "mdm-41"
+: 1619608748:0;gs
+: 1619608750:0;clear
+: 1619608801:0;ll
+: 1619608846:0;git checkout master
+: 1619608917:0;git branch -d "mdm-41"
+: 1619608927:0;git push -d origin "mdm-41"
+: 1619608933:0;git pull
+: 1619608935:0;gs
+: 1619608947:0;git checkout -b "mdm-41"
+: 1619608948:0;gs
+: 1619608994:0;docker run --log-opt max-size=100m --restart always --name mysqlgrafana -p 127.0.0.1:3306:3306 -p 127.0.0.1:33060:33060 -v /var/lib/mysqlgrafana:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=grfnMysql18 -d mysql:5.7.23
+: 1619609002:0;d ps
+: 1619609016:0;d stop mysqlgrafana
+: 1619609029:0;d rm 8130df
+: 1619609034:0;docker ps
+: 1619609037:0;docker ps -a 
+: 1619609043:0;docker run --log-opt max-size=100m --restart always --name mysqlgrafana -p 127.0.0.1:3306:3306 -p 127.0.0.1:33060:33060 -v /var/lib/mysqlgrafana:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=grfnMysql18 -d mysql:5.7.23
+: 1619609046:0;gs
+: 1619609070:0;docker remove mdm-server_grafana_1
+: 1619609083:0;docker rm mdm-server_grafana_1
+: 1619609084:0;gs
+: 1619609108:0;docker ps
+: 1619609164:0;docker exec -it mysqlgrafana
+: 1619609168:0;docker exec -it mysqlgrafana bash
+: 1619609307:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" grafana/grafana:4.6.3
+: 1619609311:0;d ps
+: 1619609445:0;docker inspect grafanamys
+: 1619609459:0;docker inspect grafanamys | grep volume
+: 1619609532:0;docker ps -a
+: 1619609575:0;docker cp 512ac2a65283:/ config/external/grafana/grafana.ini
+: 1619609590:0;docker cp 512ac2a65283:config/external/grafana/grafana.ini
+: 1619609659:0;docker cp config/external/grafana/grafana.ini 512ac2a65283:
+: 1619609668:0;docker cp config/external/grafana/grafana.ini 512ac2a65283:/
+: 1619609688:0;docker exec -it 512ac2a65283 bash
+: 1619609696:0;docker restart 512ac2a65283
+: 1619609701:0;docker exec -it 512ac2a65283 bash
+: 1619609704:0;docker restart 512ac2a65283
+: 1619609706:0;docker exec -it 512ac2a65283 bash
+: 1619609721:0;docker restart 512ac2a65283
+: 1619609722:0;docker exec -it 512ac2a65283 bash
+: 1619609727:0;docker restart 512ac2a65283
+: 1619609729:0;docker exec -it 512ac2a65283 bash
+: 1619609739:0;docker logs 512ac2a65283
+: 1619609787:0;docker cp config/external/grafana/grafana.ini 512ac2a65283:/etc/grafana/
+: 1619609790:0;docker restart 512ac2a65283
+: 1619609795:0;docker ps
+: 1619609800:0;docker logs 512ac2a65283
+: 1619609814:0;docker ps
+: 1619609843:0;vim config/external/grafana/grafana.ini
+: 1619609885:0;sudo vim config/external/grafana/grafana.ini
+: 1619609946:0;docker cp config/external/grafana/grafana.ini 512ac2a65283:/etc/grafana/
+: 1619609950:0;docker restart 512ac2a65283
+: 1619609955:0;d ps
+: 1619609968:0;docker logs 512ac2a65283
+: 1619610011:0;d ps
+: 1619610025:0;sudo vim config/external/grafana/grafana.ini
+: 1619610068:0;docker cp config/external/grafana/grafana.ini 512ac2a65283:/etc/grafana/
+: 1619610071:0;docker restart 512ac2a65283
+: 1619610074:0;docker logs 512ac2a65283
+: 1619610352:0;ll
+: 1619610353:0;docker ps
+: 1619610362:0;docker stop mysqlgrafana
+: 1619610376:0;docker rm grafanamys mysqlgrafana 
+: 1619610379:0;docker ps -a
+: 1619610384:0;d ps -a -q
+: 1619610399:0;d rm $(d ps -a -q)
+: 1619610439:0;d ps
+: 1619610478:0;docker network create --driver=bridge grafana-mysql
+: 1619610484:0;docker network ls
+: 1619610497:0;docker network inspect grafana-mysql
+: 1619610551:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" --network grafana-mysql grafana/grafana:4.6.3
+: 1619610589:0;docker run --log-opt max-size=100m --restart always --name mysqlgrafana -p 127.0.0.1:3306:3306 -p 127.0.0.1:33060:33060 -v /var/lib/mysqlgrafana:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=grfnMysql18 -d --network grafana-mysql mysql:5.7.23
+: 1619610596:0;docker ps
+: 1619610606:0;	docker network inspect grafana-mysql
+: 1619610622:0;docker restart grafanamys
+: 1619610625:0;	docker network inspect grafana-mysql
+: 1619610637:0;docker ps
+: 1619610793:0;node grafana-server.js
+: 1619611579:0;which grunt
+: 1619614043:0;grunt gruntfile.js
+: 1619614083:0;grunt --help
+: 1619614127:0;grunt --base 
+: 1619614175:0;grunt ?
+: 1619614182:0;grunt --help
+: 1619614537:0;node grafana-server.js
+: 1619614875:0;clear()\
+clear
+: 1619614876:0;clear
+: 1619614916:0;clear()\
+echo "cleared :D"
+: 1619614918:0;clear
+: 1619615014:0;node --inspect-brk  grafana-server.js
+: 1619615026:0;node --inspect grafana-server.js
+: 1619615032:0;node -v
+: 1619615039:0;node --help
+: 1619615061:0;node grafana-server.js
+: 1619615192:0;d ps
+: 1619615209:0;d logs grafanamys
+: 1619615385:0;node grafana-server.js
+: 1619615453:0;grunt
+: 1619615468:0;grunt --help
+: 1619615473:0;grunt
+: 1619615484:0;which grunt
+: 1619615499:0;cd ~/general/code/mdm-server
+: 1619615500:0;ll
+: 1619615943:0;node grafana-server.js
+: 1619617435:0;git checkout master
+: 1619617438:0;gs
+: 1619617720:0;git restore grafana-server.js
+: 1619617723:0;gs
+: 1619617754:0;grunt
+: 1619617766:0;gs
+: 1619617775:0;node grafana-server.js
+: 1619617804:0;git checkout mdm-41
+: 1619617806:0;ll
+: 1619617807:0;gs
+: 1619617821:0;grunt
+: 1619617829:0;ll
+: 1619617830:0;gs
+: 1619618810:0;ll
+: 1619618813:0;gs
+: 1619618825:0;node grafana-server.js
+: 1619619536:0;robo3t
+: 1619620265:0;cd /etc/nginx
+: 1619620265:0;ls
+: 1619620267:0;cd conf.d
+: 1619620268:0;ls
+: 1619620269:0;ls -al
+: 1619620271:0;cd ..
+: 1619620272:0;ls
+: 1619620353:0;cd conf.d
+: 1619620381:0;sudo ln -s ~/general/code/mdm-server/config/nginx.dev.ssl.conf
+: 1619620393:0;ls
+: 1619620396:0;vi nginx.dev.ssl.conf
+: 1619620416:0;sudo vi /etc/hosts
+: 1619620439:0;ip a
+: 1619620462:0;ping google.com
+: 1619620489:0;sudo service nginx -t
+: 1619620502:0;sudo  nginx -t
+: 1619620860:0;htop
+: 1619620880:0;ls
+: 1619621206:0;htop
+: 1619621404:0;ls
+: 1619621428:0;wget https://www.mobivisor.com/keys.tar.gz
+: 1619621431:0;ls
+: 1619621445:0;gunzip keys.tar.gz
+: 1619621450:0;tar -xvf keys.tar
+: 1619621455:0;./dev.cp.certs.sh
+: 1619621470:0;sudo nginx -t
+: 1619621485:0;cd ~/general/code/mdm-server
+: 1619621486:0;ls
+: 1619621492:0;cd
+: 1619621500:0;rm keys.tar 
+: 1619621502:0;ls
+: 1619621503:0;ls -alrt
+: 1619621509:0;ls -lrt
+: 1619621517:0;rm dev.cp.certs.sh
+: 1619621527:0;ls
+: 1619621528:0;ls -al
+: 1619621632:0;pwd
+: 1619621642:0;cd ~/general/code/mdm-server/log
+: 1619621645:0;cd ..
+: 1619621657:0;mv ~/Downloads/assets.tar .
+: 1619621660:0;tar -xvf assets
+: 1619621663:0;tar -xvf assets.tar
+: 1619621667:0;rm assets.tar
+: 1619621672:0;sudo nginx -t
+: 1619621682:0;pwd
+: 1619621690:0;cd
+: 1619621691:0;cd ..
+: 1619621692:0;pwd
+: 1619621701:0;sudo ln -s bor halilbrhmtrn
+: 1619621703:0;ls
+: 1619621710:0;sudo ln -s halilbrhmtrn bor
+: 1619621711:0;ls
+: 1619621714:0;cd
+: 1619621715:0;ls
+: 1619621726:0;cd /etc/nginx
+: 1619621727:0;ls
+: 1619621728:0;cd conf.d
+: 1619621729:0;ls
+: 1619621731:0;vi nginx.dev.ssl.conf
+: 1619621747:0;sudo rm nginx.dev.ssl.conf
+: 1619621752:0;sudo cp /home/halilbrhmtrn/general/code/mdm-server/config/nginx.dev.ssl.conf
+: 1619621755:0;sudo cp /home/halilbrhmtrn/general/code/mdm-server/config/nginx.dev.ssl.conf .
+: 1619621759:0;sudo subl /home/halilbrhmtrn/general/code/mdm-server/config/nginx.dev.ssl.conf
+: 1619621768:0;sudo code /home/halilbrhmtrn/general/code/mdm-server/config/nginx.dev.ssl.conf
+: 1619621778:0;sudo code /home/halilbrhmtrn/general/code/mdm-server/config/nginx.dev.ssl.conf --user-data-dir
+: 1619621806:0;pq
+: 1619621807:0;pqs
+: 1619621809:0;xs
+: 1619621813:0;cd
+: 1619621822:0;cd ~/general/code/mdm-server
+: 1619621824:0;pwd
+: 1619621862:0;sudo nginx -t
+: 1619621889:0;cd
+: 1619621895:0;cd /etc/nginx/conf.d
+: 1619621895:0;ls
+: 1619621896:0;ls -al
+: 1619621898:0;more nginx.dev.ssl.conf
+: 1619621946:0;ls
+: 1619621947:0;ls -al
+: 1619621954:0;sudo code ./nginx.dev.ssl.conf
+: 1619621959:0;sudo code ./nginx.dev.ssl.conf --user-data-dir
+: 1619621991:0;cd
+: 1619621992:0;pwd
+: 1619621995:0;cd general
+: 1619621996:0;pwd
+: 1619622019:0;sudo nginx -t
+: 1619622038:0;sudo nginx -s reload
+: 1619622053:0;sudo service nginx restart
+: 1619622066:0;sudo netstat -plnt
+: 1619622083:0;sudo apt purge apach
+: 1619622086:0;sudo apt purge apache2
+: 1619622100:0;sudo service nginx restart
+: 1619622104:0;sudo netstat -plnt
+: 1619622122:0;sudo vi /etc/hosts
+: 1619622148:0;cd ~/general/code/mdm-server
+: 1619622150:0;node server.js
+: 1619622157:0;dcu
+: 1619622161:0;node server.js
+: 1619622194:0;ls
+: 1619622198:0;cd ~/general/code/mdm-server
+: 1619622199:0;ls
+: 1619622203:0;node grafana-server.js
+: 1619622311:0;code .
+: 1619622343:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619622361:0;d ps
+: 1619622376:0;docker logs mdm-server_dns_1
+: 1619622381:0;docker logs grafanamys
+: 1619622387:0;docker ps
+: 1619622395:0;docker ps -a
+: 1619622406:0;docker logs grafanamys
+: 1619622436:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafana" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" --network grafana-mysql grafana/grafana:4.6.3
+: 1619622453:0;docker restart grafanamys
+: 1619622457:0;docker ps
+: 1619622469:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619622502:0;docker ps
+: 1619622513:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619622525:0;docker logs grafanamys
+: 1619622533:0;docker logs -f grafanamys
+: 1619622568:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619677549:0;cd ~/general/code/mdm-server
+: 1619677551:0;ll
+: 1619677616:0;sudo passwd root
+: 1619677636:0;sudo /etc
+: 1619677649:0;sudo cat /etc/alsa
+: 1619677661:0;passwd halilbrhmtrn
+: 1619677691:0;sudo passwd halilbrhmtrn
+: 1619677719:0;sudo cat /proc/1000/attr/apparmor/current
+: 1619677746:0;clear
+: 1619677756:0;cd ~/general/code/mdm-server
+: 1619677757:0;ll
+: 1619677760:0;dc restart
+: 1619677767:0;d ps
+: 1619677785:0;docker restart grafanamys
+: 1619677789:0;d ps
+: 1619677811:0;ls -al
+: 1619677826:0;d ps
+: 1619677855:0;grunt
+: 1619677900:0;cd ~/general/code/mdm-server
+: 1619677996:0;gs
+: 1619678002:0;diff grafana-server.js
+: 1619678005:0;git diff grafana-server.js
+: 1619678017:0;git restore grafana-server.js
+: 1619678026:0;node -v
+: 1619678029:0;node grafana-server.js
+: 1619678071:0;sudo nano /etc/hosts
+: 1619678168:0;cd ~/general/code/mdm-server
+: 1619678189:0;node scripts/grafana-manual-tenant-data.js
+: 1619678193:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619678281:0;node --abort-on-uncaught-exception scripts/grafana-manual-tenant-data.js staging
+: 1619678294:0;cat scripts/grafana-manual-tenant-data.js
+: 1619678321:0;code .
+: 1619678357:0;cat scripts/grafana-manual-tenant-data.js
+: 1619678361:0;node --abort-on-uncaught-exception scripts/grafana-manual-tenant-data.js staging
+: 1619678424:0;docker logs grafanamys
+: 1619678437:0;docker logs -f  grafanamys
+: 1619678773:0;ll config/external/grafana
+: 1619678786:0;ll config/data/grafana
+: 1619678839:0;docker stop grafanamys
+: 1619678844:0;docker rm grafanamys
+: 1619678879:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_SERVER_HTTP_PORT=5602" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" --network grafana-mysql grafana/grafana:4.6.3
+: 1619678884:0;docker ps
+: 1619678888:0;docker
+: 1619678892:0;docker logs grafanamys
+: 1619678929:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619678933:0;docker logs grafanamys
+: 1619678947:0;docker logs -f grafanamys
+: 1619679044:0;docker logs grafanamys
+: 1619679051:0;docker stop grafanamys
+: 1619679054:0;docker rm grafanamys
+: 1619679073:0;docker run -d -p 5602:3000 --name grafanamys -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" --network grafana-mysql grafana/grafana:4.6.3
+: 1619679077:0;docker ps
+: 1619679084:0;docker logs -f grafanamys
+: 1619680512:0;node grafana-server.js
+: 1619680522:0;cd ~/general/code/mdm-server
+: 1619680529:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619680806:0;ping mean-dev.mobivisor.com
+: 1619680823:0;cd /etc/nginx
+: 1619680825:0;cd conf.d
+: 1619680825:0;ls
+: 1619680826:0;ls -al
+: 1619680842:0;sudo systemctl nginx status
+: 1619680852:0;sudo systemctl status ngix
+: 1619680856:0;sudo systemctl status nginx
+: 1619680864:0;sudo systemctl start nginx
+: 1619680867:0;sudo systemctl status nginx
+: 1619680874:0;ls
+: 1619680876:0;ls -al
+: 1619680878:0;vi nginx.dev.ssl.conf
+: 1619681119:0;docker ps
+: 1619681127:0;docker exec -it grafanamys bash
+: 1619681295:0;pwd
+: 1619681312:0;cd ~/general/code/mdm-server
+: 1619681313:0;cd config
+: 1619681315:0;ll
+: 1619681317:0;cd grafana-dashboards
+: 1619681317:0;ll
+: 1619681326:0;cd ..
+: 1619681339:0;cd config/external/grafana
+: 1619681339:0;ll
+: 1619681381:0;docker cp grafanamys:/ grafana.ini
+: 1619681442:0;docker cp grafana.ini grafanamys:/grafana.ini
+: 1619681519:0;sudo nano ~/.zshrc
+: 1619681557:0;source ~/.zshrc
+: 1619681571:0;precmd
+: 1619681579:0;precmd()
+: 1619681595:0;cat Desktop
+: 1619681603:0;more /etc/passwd
+: 1619681631:0;more /etc/dictd/colorit.conf
+: 1619681657:0;cd .dotfiles
+: 1619681658:0;ll
+: 1619681660:0;cd zsh
+: 1619681661:0;ll
+: 1619681671:0;cd .zsh
+: 1619681672:0;ll
+: 1619681681:0;nano prompt
+: 1619681769:0;nano git-prompt.sh
+: 1619681796:0;nano prompt
+: 1619681838:0;cd
+: 1619681845:0;source .zshrc
+: 1619681863:0;cd .dotfiles
+: 1619681867:0;ls
+: 1619681872:0;cd zsh
+: 1619681873:0;ls
+: 1619681880:0;ls -al
+: 1619681883:0;cd .zsh
+: 1619681884:0;ls
+: 1619681892:0;nano promt
+: 1619681912:0;cat prompt
+: 1619681916:0;nano prompt
+: 1619682015:0;cd
+: 1619682020:0;source .zshrc
+: 1619682023:0;ll
+: 1619682063:0;cd cd .dotfiles/zsh/.zsh/
+: 1619682075:0;cd .dotfiles/zsh/.zsh/
+: 1619682080:0;nano prompt
+: 1619682105:0;cd 
+: 1619682108:0;source .zshrc
+: 1619682113:0;ll
+: 1619682287:0;cd .dotfiles/zsh/.zsh/
+: 1619682290:0;ls
+: 1619682297:0;nano prompt
+: 1619682354:0;ls
+: 1619682367:0;more /etc/dictd/dict.conf
+: 1619682375:0;tree
+: 1619682389:0;cd ~/general/code/mdm-server
+: 1619682404:0;cd myalacritty
+: 1619682435:0;docker-compose down
+: 1619682444:0;dc up
+: 1619682820:0;cd ~/.dotfiles/zsh/.zsh
+: 1619682830:0;ll
+: 1619682833:0;cd ..
+: 1619682833:0;ll
+: 1619682840:0;cd ..
+: 1619682840:0;ll
+: 1619682846:0;sudo rm -rf alacritty
+: 1619682851:0;ll
+: 1619682858:0;ll vscode
+: 1619682867:0;ll vscode/.config/Code/
+: 1619682877:0;rm vscode
+: 1619682889:0;rm -r vscode
+: 1619682893:0;ll
+: 1619682899:0;cd vim
+: 1619682902:0;ll
+: 1619682907:0;cat .vimrc
+: 1619682911:0;cd ..
+: 1619682915:0;ll
+: 1619682919:0;cd zsh
+: 1619682919:0;ls
+: 1619682924:0;cd .zsh
+: 1619682925:0;ls
+: 1619682930:0;nano prompt
+: 1619682962:0;ls
+: 1619682968:0;cd ..
+: 1619682969:0;ls
+: 1619682972:0;ls -al
+: 1619682977:0;nano .zshrc
+: 1619683032:0;ls
+: 1619683037:0;ls -al
+: 1619683039:0;cd .zsh
+: 1619683040:0;ls -al
+: 1619683047:0;nano prompt
+: 1619683119:0;ls -al
+: 1619683129:0;cd ~/general/code/mdm-server
+: 1619683132:0;dc up
+: 1619683156:0;more /etc/dictionaries-common/words
+: 1619684987:0;cd ~/general/code/mdm-server
+: 1619684988:0;ll
+: 1619685071:0;docker ps
+: 1619685078:0;dc restart
+: 1619685084:0;code .
+: 1619685110:0;grunt 
+: 1619685116:0;cd ~/general/code/mdm-server
+: 1619685120:0;docker ps
+: 1619685137:0;docker exec -it grafanaamys bash
+: 1619685141:0;docker ps
+: 1619685162:0;docker exec -it 9d7015f9ccb8 bash
+: 1619685226:0;docker ps
+: 1619685233:0;docker restart grafanamys
+: 1619685265:0;docker ps
+: 1619685272:0;docker -logs grafanamys
+: 1619685278:0;docker logs grafanamys
+: 1619685282:0;docker ps
+: 1619685308:0;docker logs -f grafanamys
+: 1619685343:0;docker stop grafanamys
+: 1619685350:0;docker rm grafanamys
+: 1619685362:0;docker run -d -p 5602:3000 --name grafanamys -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" --network grafana-mysql grafana/grafana:4.6.3
+: 1619685365:0;docker ps
+: 1619685369:0;docker logs grafanamys -f
+: 1619685401:0;docker cp grafana.ini grafanamys:/grafana.ini
+: 1619685416:0;docker cp config/external/grafana/grafana.ini grafanamys:/grafana.ini
+: 1619685433:0;docker exec -it grafanamys bash
+: 1619685523:0;docker ps
+: 1619685527:0;docker logs -f grafanamys
+: 1619685564:0;docker restart grafanamys
+: 1619685570:0;docker logs -f grafanamys
+: 1619685592:0;docker ps
+: 1619685707:0;docker stop grafanamys
+: 1619685741:0;docker commit grafanamys grafanamyscorrectport
+: 1619685764:0;docker run -p 5602:5602 grafanamyscorrectport
+: 1619685949:0;docker rm grafanamys 
+: 1619685952:0;docker ps
+: 1619685957:0;docker ps -a
+: 1619685966:0;docker rm grafanamyscorrectport
+: 1619685975:0;docker rm 930db0256f3e
+: 1619685978:0;docker ps
+: 1619685980:0;docker ps -a
+: 1619686001:0;cd ~/general/code/mdm-server
+: 1619686018:0;docker config create config/external/grafana/grafana.ini
+: 1619686046:0;docker config create config/external/grafana/grafana.ini grafanaini
+: 1619686059:0;docker config create grafanaini config/external/grafana/grafana.ini
+: 1619686174:0;ll
+: 1619686177:0;docker ps
+: 1619686181:0;docker ps -a
+: 1619686220:0;docker run -d -p 5602:5602 --name grafanamys -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" --network grafana-mysql grafana/grafana:4.6.3
+: 1619686222:0;docker ps
+: 1619686231:0;docker exec -it grafanamys bash
+: 1619686238:0;docker ps
+: 1619686250:0;docker cp config/external/grafana/grafana.ini grafanamys:/grafana.ini
+: 1619686253:0;docker exec -it grafanamys bash
+: 1619686286:0;docker restart grafanamys
+: 1619686296:0;docker logs -f grafanamys
+: 1619686436:0;ls
+: 1619686438:0;docker ps
+: 1619686442:0;docker stop grafanamys
+: 1619686447:0;docker rm grafanamys
+: 1619686520:0;cd config/external/grafana
+: 1619686521:0;pwd
+: 1619686538:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_PATHS_CONFIG=/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" --network grafana-mysql grafana/grafana:4.6.3
+: 1619686544:0;docker logs -f grafanamys
+: 1619686608:0;docker stop grafanamys
+: 1619686610:0;docker rm grafanamys
+: 1619686835:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_PATHS_CONFIG=/etc/grafanavolume/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafanavolume" --network grafana-mysql grafana/grafana:4.6.3
+: 1619686844:0;docker logs -f grafanamys
+: 1619687016:0;docker stop grafanamys
+: 1619687019:0;docker rm grafanamys
+: 1619687033:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_PATHS_CONFIG=/etc/grafanavolume/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafanavolume" -v "../config/data/grafana:/var/lib/grafana" --network grafana-mysql grafana/grafana:4.6.3
+: 1619687079:0;docker run -d -p 5602:3000 --name grafanamys -e "GF_PATHS_CONFIG=/etc/grafanavolume/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafanavolume" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" --network grafana-mysql grafana/grafana:4.6.3
+: 1619687084:0;docker logs -f grafanamys
+: 1619687129:0;docker stop grafanamys
+: 1619687133:0;docker rm grafanamys
+: 1619687151:0;docker run -d -p 5602:5602 --name grafanamys -e "GF_PATHS_CONFIG=/etc/grafanavolume/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafanavolume" -v "/home/halilbrhmtrn/general/code/mdm-server/config/data/grafana:/var/lib/grafana" --network grafana-mysql grafana/grafana:4.6.3
+: 1619687156:0;docker logs -f grafanamys
+: 1619687242:0;ll config
+: 1619687253:0;ll config/grafana-dashboards
+: 1619687261:0;docker rm grafanamys
+: 1619687264:0;docker stop grafanamys
+: 1619687266:0;docker rm grafanamys
+: 1619687332:0;docker run -d -p 5602:5602 --name grafanamys -e "GF_PATHS_CONFIG=/etc/grafanavolume/grafana.ini" -e "MYSQL_ROOT_PASSWORD=grfnMysql18" -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" -v "/home/halilbrhmtrn/general/code/mdm-server/config/external/grafana:/etc/grafanavolume" -v "/home/halilbrhmtrn/general/code/mdm-server/config/grafana-dashboards:/var/lib/grafana/dashboards" --network grafana-mysql grafana/grafana:4.6.3
+: 1619687338:0;docker logs -f grafanamys
+: 1619687774:0;docker stop grafanamys
+: 1619687778:0;docker rm grafanamys
+: 1619687877:0;ll
+: 1619688242:0;docker ps
+: 1619688251:0;docker stop mysqlgrafana mdm-server_elasticsearch_1
+: 1619688327:0;docker container prune
+: 1619688333:0;docker ps
+: 1619688342:0;docker-compose down
+: 1619688354:0;docker-compose up
+: 1619688369:0;cd ..
+: 1619688373:0;ls
+: 1619688383:0;cd ..
+: 1619688384:0;ls
+: 1619688389:0;cd ..
+: 1619688389:0;ls
+: 1619688391:0;ls -la
+: 1619688393:0;docker ps
+: 1619688425:0;docker logs -f mdm-server_grafana_1
+: 1619688541:0;docker restart mdm-server_grafana_1
+: 1619688545:0;dc ps
+: 1619688552:0;docker logs mdm-server_grafana_1
+: 1619688588:0;docker exec -it mdm-server_mysql_1 bash
+: 1619688703:0;docker restart mdm-server_grafana_1
+: 1619688706:0;dc ps
+: 1619688724:0;docker logs -f mdm-server_grafana_1
+: 1619688798:0;dc down
+: 1619688826:0;dc up
+: 1619688835:0;d ps
+: 1619688842:0;dc ps
+: 1619688853:0;docker logs mdm-server_grafana_1
+: 1619688871:0;dc ps
+: 1619688881:0;docker logs mdm-server_grafana_1
+: 1619688895:0;dc down
+: 1619688907:0;dc up -d
+: 1619688935:0;docker logs mdm-server_elasticsearch_1
+: 1619688964:0;docker logs -f mdm-server_grafana_1
+: 1619689137:0;dc ps
+: 1619689146:0;cd ~/general/code/mdm-server
+: 1619689148:0;grunt 
+: 1619689156:0;cd ~/general/code/mdm-server
+: 1619689167:0;node grafana-server.js
+: 1619689181:0;service nginx status
+: 1619689187:0;cd ~/general/code/mdm-server
+: 1619689193:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619689293:0;docker restart mdm-server_grafana_1
+: 1619689296:0;dc ps
+: 1619689303:0;docker logs mdm-server_grafana_1
+: 1619689306:0;docker logs mdm-server_grafana_1 -f
+: 1619689342:0;sudo grunt
+: 1619689356:0;grunt
+: 1619689569:0;dc down
+: 1619689574:0;dc up -d
+: 1619689585:0;grunt 
+: 1619689596:0;dc ps
+: 1619689614:0;docker logs mdm-server_grafana_1
+: 1619689632:0;dc ps
+: 1619689643:0;docker logs mdm-server_grafana_1 -f
+: 1619689666:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619689805:0;dc down
+: 1619689811:0;dc up -d
+: 1619689818:0;dc ps
+: 1619689823:0;grunt 
+: 1619689826:0;dc ps
+: 1619689833:0;docker logs -f mdm-server_grafana_1
+: 1619689880:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619689888:0;docker restart mdm-server_grafana_1
+: 1619689892:0;docker logs -f mdm-server_grafana_1
+: 1619689898:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619689925:0;docker logs -f mdm-server_grafana_1
+: 1619689965:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619689973:0;node grafana-server.js
+: 1619689998:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619690002:0;docker logs -f mdm-server_grafana_1
+: 1619690089:0;docker restart mdm-server_grafana_1
+: 1619690092:0;dc ps
+: 1619690109:0;docker logs mdm-server_grafana_1 -f
+: 1619690114:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619690145:0;docker restart mdm-server_grafana_1
+: 1619690148:0;docker logs mdm-server_grafana_1 -f
+: 1619690153:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619690165:0;docker-compose ps
+: 1619690174:0;docker-compose logs 
+: 1619690215:0;docker restart mdm-server_grafana_1
+: 1619690219:0;docker logs mdm-server_grafana_1 -f
+: 1619690228:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619690264:0;docker restart mdm-server_grafana_1
+: 1619690267:0;docker logs mdm-server_grafana_1 -f
+: 1619690277:0;docker restart mdm-server_grafana_1
+: 1619690283:0;docker logs mdm-server_grafana_1
+: 1619690320:0;dc down
+: 1619690326:0;dc up -d
+: 1619690338:0;docker logs mdm-server_grafana_1
+: 1619690343:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619690357:0;docker logs mdm-server_grafana_1
+: 1619690407:0;grunt 
+: 1619694268:0;dc down
+: 1619694275:0;dc up -d
+: 1619694282:0;grunt
+: 1619694285:0;node grafana-server.js
+: 1619694292:0;docker logs mdm-server_grafana_1
+: 1619694297:0;dc ps
+: 1619694306:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619694735:0;dc down
+: 1619694777:0;dc up -d
+: 1619694785:0;grunt
+: 1619694791:0;node grafana-server.js
+: 1619694835:0;ping localhost:3306
+: 1619694848:0;ping 127.0.0.1:3306 
+: 1619694899:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619694975:0;dc down
+: 1619694981:0;dc up -d 
+: 1619695011:0;grunt
+: 1619695251:0;mysql
+: 1619696303:0;dc down
+: 1619696309:0;dc up -d 
+: 1619696314:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619696322:0;docker logs mdm-server_grafana_1
+: 1619696335:0;docker logs mdm-server_grafana_1 -f
+: 1619696551:0;dc down
+: 1619696558:0;dc up -d 
+: 1619696562:0;grunt
+: 1619696570:0;node grafana-server.js
+: 1619696582:7;docker logs -f mdm-server_grafana_1
+: 1619696593:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619696710:0;dc down
+: 1619696737:0;dc up -d
+: 1619696760:0;dc down
+: 1619696764:0;dc up -d
+: 1619696775:0;docker logs mdm-server_grafana_1
+: 1619696795:0;grunt
+: 1619696799:0;node grafana-server.js
+: 1619696806:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619696817:0;docker logs mdm-server_grafana_1
+: 1619696942:0;docker restart mdm-server_grafana_1
+: 1619696947:0;docker logs mdm-server_grafana_1
+: 1619696988:0;dc down
+: 1619696998:0;dc up -d
+: 1619697005:0;docker logs mdm-server_grafana_1
+: 1619697076:0;dc down
+: 1619697081:0;dc up -d
+: 1619697087:0;docker logs mdm-server_grafana_1
+: 1619697146:0;dc ps
+: 1619697158:0;node grafana-server.js
+: 1619697167:0;gurnt
+: 1619697169:0;grunt
+: 1619697256:0;docker logs mdm-server_grafana_1
+: 1619697301:0;clear
+: 1619697307:0;node scripts/grafana-manual-tenant-data.js staging
+: 1619697459:0;node grafana-server.js
+: 1619697549:0;sudo vi /etc/hosts
+: 1619697664:0;ping staging.mobivisor.com
+: 1619699494:0;node grafana-server.js
+: 1619699753:0;robo3t
+: 1619699878:0;cd ~/general/code/mdm-server
+: 1619699880:0;ls -al
+: 1619699899:0;NODE_ENV=admin node admin.js
+: 1619701335:0;htop
+: 1619702435:0;ping staging.mobivisor.com
+: 1619702619:0;docker logs mdm-server_elasticsearch_1
+: 1619703666:0;sudo nano /etc/hosts
+: 1619705111:0;bg
+: 1619705115:0;cd ~/general/code/mdm-server
+: 1619705116:0;ls
+: 1619705213:0;mongo-connector --help
+: 1619705270:0;more mongo-connector-config.json 
+: 1619705299:0;cd ~/general/code
+: 1619705301:0;cd /etc/nginx/conf.d
+: 1619705305:0;cd ~/general/code/mdm-server
+: 1619705308:0;cd config
+: 1619705309:0;ls
+: 1619705317:0;cp mongo-connector-config.json mongo-connector-dev-config.json
+: 1619705343:0;pwd
+: 1619706074:0;htop
+: 1619706590:0;sudo vim /etc/hostws
+: 1619706595:0;sudo vim /etc/hosts
+: 1619706821:0;cd Downloads
+: 1619706853:0;tar -xvf core_logs_2021.04.29_14.24.29.mongodump.tar.gz
+: 1619706860:0;ll var
+: 1619706911:0;mongorestore --db staging --collection logs var/lib/mongodb/dump_staging/dump/staging/logs.bson
+: 1619706941:0;sudo vi /etc/hosts
+: 1619706994:0;cd ~/general/code/mdm-server
+: 1619707061:0;mongo-connector -c config/mongo-connector-dev-config.json >> log/mongo-connector.out
+: 1619707093:0;python3
+: 1619707102:0;which python
+: 1619707110:0;python -v
+: 1619707120:0;which python
+: 1619707133:0;pip -v
+: 1619707138:0;pip -V
+: 1619707147:0;which pip
+: 1619707172:0;ls -alrt
+: 1619707208:0;sudo python3 get-pip.py
+: 1619707225:0;pip -V
+: 1619707235:0;sudo pip install mongo-connector
+: 1619707320:0;mongo-connector -c config/mongo-connector-dev-config.json
+: 1619707332:0;ps -ef | grep mongo-connector
+: 1619707348:0;more log/mongo-connector.log
+: 1619707539:0;docker ps
+: 1619707546:0;docker stop mdm-server_mongo_1
+: 1619707565:0;docker rm mdm-server_mongo_1
+: 1619707568:0;dcu
+: 1619707572:0;docker ps
+: 1619707581:0;mongo-connector -c config/mongo-connector-dev-config.json
+: 1619707596:0;tail log/mongo-connector.log
+: 1619707609:0;vi log/mongo-connector.log
+: 1619707694:0;docker ps
+: 1619707705:0;docker exec -it mdm-server_mongo_1 mongo
+: 1619707924:0;cd ~/general/code/mdm-server
+: 1619707949:0;mongo-connector -c config/mongo-connector-config.json 
+: 1619707969:0;mongo-connector -c config/mongo-connector-dev-config.json 
+: 1619707982:0;tail log/mongo-connector.log
+: 1619708500:0;pip uninstall mongo-connector
+: 1619708533:0;sudo pip uninstall mongo-connector
+: 1619708600:0;mongo-connector -c config/mongo-connector-dev-config.json 
+: 1619708672:0;tail -f /home/halilbrhmtrn/general/code/mdm-server/log/mongo-connector.log.
+: 1619708674:0;tail -f /home/halilbrhmtrn/general/code/mdm-server/log/mongo-connector.log
+: 1619708698:0;vi /home/halilbrhmtrn/general/code/mdm-server/log/mongo-connector.log
+: 1619708743:0;bg
+: 1619708744:0;ls
+: 1619708745:0;ls -alrt
+: 1619708751:0;more oplog.timestamp
+: 1619708771:0;fg
+: 1619708780:0;rm oplog.timestamp
+: 1619708783:0;docker ps
+: 1619708812:0;docker stop mdm-server_elasticsearch_1
+: 1619708818:0;docker rm mdm-server_elasticsearch_1
+: 1619708822:0;dcu
+: 1619708828:0;ls -alrt
+: 1619708849:0;mongo-connector -c config/mongo-connector-dev-config.json 
+: 1619708861:0;pwd
+: 1619708866:0;cd ~/general/code/mdm-server
+: 1619708867:0;ls -alrt
+: 1619708870:0;more oplog.timestamp
+: 1619708972:0;fg
+: 1619709019:0;docker exec mdm-server_mysql_1 mysql
+: 1619709060:0;docker exec mdm-server_mysql_1 mysql -u root -pgrfnMysql18
+: 1619709065:0;docker exec mdm-server_mysql_1 mysql -u root 
+: 1619709072:0;docker exec mdm-server_mysql_1 mysql bash
+: 1619709081:0;docker exec -it mdm-server_mysql_1 mysql bash
+: 1619709087:0;docker exec -it mdm-server_mysql_1 bash
+: 1619709459:0;ls
+: 1619709466:0;cd elasticsearchgdata/mobivisor/nodes/0/indices/mongodb_meta/0/index
+: 1619709467:0;ls
+: 1619709469:0;ls -al
+: 1619709478:0;pwd
+: 1619709479:0;cd ..
+: 1619709479:0;ls
+: 1619709481:0;cd ..
+: 1619709481:0;ls
+: 1619709483:0;pwd
+: 1619709484:0;cd ..
+: 1619709485:0;ls
+: 1619709492:0;cd staging
+: 1619709492:0;ls
+: 1619781054:0;ll
+: 1619781056:0;cd ~/general/code/mdm-server
+: 1619781057:0;ll
+: 1619781078:0;code .
+: 1619781089:0;dc ps
+: 1619781096:0;dc restart
+: 1619781149:0;grunt
+: 1619781157:0;cd ~/general/code/mdm-server
+: 1619781163:0;node grafana-server.js
+: 1619781214:0;cd ~/general/code/mdm-server
+: 1619781219:0;sudo rm -rf elasticsearchgdata
+: 1619781234:0;docker stop mdm-server_elasticsearch_1
+: 1619781235:0;dc up
+: 1619781259:0;dc ps
+: 1619781298:0;dc down
+: 1619781300:0;dc up
+: 1619781304:0;grunt
+: 1619781314:0;cd ~/general/code/mdm-server
+: 1619781338:0;cd elasticsearchgdata/mobivisor/nodes/0/indices/mongodb_meta/0/index
+: 1619781365:0;mongo-connector -c config/mongo-connector-dev-config.json
+: 1619781494:0;history
+: 1619781517:0;mmore < history
+: 1619781521:0;more | history
+: 1619781547:0;history
+: 1619781567:0;tail -f /home/halilbrhmtrn/general/code/mdm-server/log/mongo-connector.log
+: 1619898008:0;ll /sys/devices
+: 1619898019:0;cd /sys/block
+: 1619898021:0;ls
+: 1619898023:0;cd ..
+: 1619898024:0;ls
+: 1619898037:0;cd devices
+: 1619898039:0;ls
+: 1619898041:0;cd cpu
+: 1619898043:0;ls -l
+: 1619898048:0;cd ..
+: 1619898049:0;ls
+: 1619898051:0;cd system
+: 1619898052:0;ls
+: 1619898055:0;ls -la
+: 1619898058:0;cd container
+: 1619898082:0;ls
+: 1619898084:0;ls -al
+: 1619898098:0;cat uevent
+: 1619898099:0;ls
+: 1619898101:0;ls -al
+: 1619898187:0;cd ..
+: 1619898192:0;ls
+: 1619898195:0;cd pci0000:00
+: 1619898196:0;ls
+: 1619898202:0;cd 0000:00:00.2
+: 1619898203:0;ls
+: 1619898214:0;cd msi_irqs
+: 1619898214:0;ls
+: 1619898217:0;pwd
+: 1619898226:0;cd..
+: 1619898227:0;cd ..
+: 1619898234:0;ls
+: 1619898249:0;cd 0000:00:08.1
+: 1619898251:0;ls -al
+: 1619898361:0;cd ..
+: 1619898371:0;ls -l /sys/block
+: 1619898395:0;ls -l /dev/block
+: 1620031421:0;sudo vim /etc/hosts
+: 1620032266:0;cd ~/general/code/mdm-server
+: 1620032271:0;code .
+: 1620032275:0;dc ps
+: 1620032283:0;dc restart
+: 1620032288:0;grunt
+: 1620032771:0;cd general
+: 1620032772:0;ls
+: 1620032780:0;git clone https://github.com/halilbrhmtrn/notes.git
+: 1620032800:0;ll
+: 1620032804:0;cd notes
+: 1620032805:0;code .
+: 1620032830:0;ls -al
+: 1620042729:0;ll
+: 1620042732:0;cd WebStorm-203.7148.54
+: 1620042733:0;ls
+: 1620042739:0;cat Install-Linux-tar.txt
+: 1620042749:0;ls
+: 1620042751:0;cd bin
+: 1620042752:0;ls
+: 1620042756:0;./webstorm.sh
+: 1620115499:0;cd ..
+: 1620115500:0;ll
+: 1620115502:0;cd ..
+: 1620115503:0;ll
+: 1620115510:0;sudo rm -rf WebStorm-203.7148.54
+: 1620115515:0;cd Downloads
+: 1620115516:0;ll
+: 1620115722:0;sudo rm -rf Alacritty.zip clone_dump_2021.04.16_11.05.02.mongodump.tar.gz code_1.55.2-1618307277_amd64.deb core_logs_2021.04.29_14.24.29.mongodump.tar.gz Enabiz-Tahlilleri\ \(1\).pdf Enabiz-Tahlilleri.pdf introduction.pptx merge_request_783_2\ \(1\).mp4 merge_request_783_2.mp4 merge_request_783_2.zip OpenSourceInsecurity.pdf ray-hennessy-VUrHRFXEZ70-unsplash.jpg Rygestopguide\ Tyrkisk.pdf Selection_069\ \(1\).png Selection_069.png Selection_070\ \(1\).png Selection_070.png Selection_072.png WebStorm-2020.3.2.tar.gz Unusedpkg-master Unconfirmed\ 346649.crdownload steam_latest.deb steve-leadbeater-CtAn_ZZy-oU-unsplash.jpg 
+: 1620115800:0;sudo apt remove steam-launcher steam 
+: 1620115819:0;sudo apt purge steam steam-launcher
+: 1620115863:0;sudo rm -rf ~/.local/share/Steam
+: 1620115900:0;sudo rm -rf ~/.steam
+: 1620115923:0;sudo rm ~/.steampath ~/.steampid
+: 1620115945:0;sudo rm ~/Desktop/steam.desktop
+: 1620116020:0;vim jetbrains-toolbox.sh
+: 1620116048:0;chmod +x jetbrains-toolbox.sh
+: 1620116051:0;sudo ./jetbrains-toolbox.sh
+: 1620116155:0;jetbrains-toolbox
+: 1620116462:0;cd ~/general/code/mdm-server
+: 1620116474:0;msg = (function() {\
+  switch (modelName) {\
+    case "DevicesCommands":\
+      return localize.translate('DeviceCommandUpdatedText', {\
+        postProcess: 'sprintf',\
+        sprintf: {\
+          stringData: {\
+            userName: model.displayName || model.userName,\
+            status: model.status,\
+            commandType: model.commandType\
+          }\
+        }\
+      });
+: 1620116478:0;code .
+: 1620116544:0;gs
+: 1620116564:0;git clean -df
+: 1620116571:0;sudo git clean -df
+: 1620116578:0;git checkout --
+: 1620116581:0;gs
+: 1620116613:0;git add config/env/development.js
+: 1620116616:0;git restore .
+: 1620116624:0;sudo git restore .
+: 1620116625:0;gs
+: 1620116641:0;git restore --staged .
+: 1620116642:0;gs
+: 1620116646:0;git checkout master
+: 1620116649:0;gs
+: 1620116653:0;git pull
+: 1620116736:0;gs
+: 1620116747:0;git checkout -b "mdm-31"
+: 1620116749:0;gs
+: 1620116760:0;webstorm .
+: 1620116763:0;webstorm
+: 1620121139:0;echo $GOPATH
+: 1620121144:0;ll
+: 1620121146:0;ll go
+: 1620121241:0;cd /home/halilbrhmtrn/go/sr
+: 1620121246:0;cd /home/halilbrhmtrn/go/src/
+: 1620121247:0;ls
+: 1620121258:0;mkdir mymath
+: 1620121261:0;cd mymath
+: 1620121270:0;vim sqrt.go
+: 1620121505:0;export GOROOT=$HOME/go
+: 1620121936:0;l
+: 1620121938:0;ls
+: 1620121942:0;cd mymath
+: 1620121949:0;rm main.go
+: 1620121951:0;ls
+: 1620121968:0;go install
+: 1620121980:0;ls
+: 1620122004:0;ls -la ../../pkg/linux_amd64
+: 1620122070:0;ls -al ../../bin
+: 1620122114:0;cd ..
+: 1620122122:0;mkdir mathapp
+: 1620122126:0;cd mathapp
+: 1620122141:0;touch main.go
+: 1620122399:0;pwd
+: 1620122401:0;go install
+: 1620122410:0;ll ../../bin
+: 1620122427:0;ls -al
+: 1620122436:0;ls -al ../../pkg/linux_amd64
+: 1620122456:0;cd /home/halilbrhmtrn/go/bin
+: 1620122457:0;ls -al
+: 1620122475:0;cd ..
+: 1620122476:0;ls
+: 1620122485:0;cd bin
+: 1620122486:0;ls
+: 1620122488:0;cd ..
+: 1620122488:0;ls
+: 1620122490:0;cd pkg
+: 1620122491:0;ls
+: 1620122493:0;cd linux_amd64
+: 1620122494:0;ls
+: 1620122499:0;cd ..
+: 1620122509:0;ls
+: 1620122511:0;cd src
+: 1620122511:0;ls
+: 1620122518:0;cd mathapp
+: 1620122519:0;ls
+: 1620122522:0;go install
+: 1620122525:0;cd ..
+: 1620122525:0;ls
+: 1620122526:0;cd ..
+: 1620122528:0;ls
+: 1620122529:0;cd bin
+: 1620122530:0;ls
+: 1620122537:0;cd ..
+: 1620122539:0;ls 
+: 1620122545:0;cd pkg/linux_amd64
+: 1620122546:0;ls
+: 1620122559:0;cd ..
+: 1620122561:0;ls
+: 1620122562:0;cd ..
+: 1620122564:0;ls
+: 1620122565:0;ls -al
+: 1620122568:0;cd ..
+: 1620122568:0;ls
+: 1620122571:0;ls -al
+: 1620122632:0;ls
+: 1620122636:0;cd go
+: 1620122639:0;cd src
+: 1620122640:0;ls
+: 1620122642:0;cd mymath
+: 1620122643:0;ls
+: 1620122646:0;cd ..
+: 1620122646:0;ls
+: 1620122650:0;cd mathapp
+: 1620122651:0;ls
+: 1620122656:0;go build
+: 1620122657:0;ls
+: 1620122661:0;./mathapp
+: 1620122698:0;go build 
+: 1620122700:0;./mathapp
+: 1620122722:0;go build
+: 1620122724:0;./mathapp
+: 1620124068:0;gs
+: 1620124081:0;git checkout "mdm-26"
+: 1620125175:0;dc restart
+: 1620125586:0;grunt
+: 1620134317:0;cd ~/general/code/mdm-server
+: 1620134319:0;dc restart
+: 1620134323:0;grunt
+: 1620136738:0;wget https://cdn-104.anonfiles.com/leT5jeuau3/c97e3ac2-1620137245/SOLID%20The%20Software%20Design%20and%20Architecture%20Handbook.pdf
+: 1620136827:0;wget http://cdn-104.anonfiles.com/leT5jeuau3/c97e3ac2-1620137245/SOLID%20The%20Software%20Design%20and%20Architecture%20Handbook.pdf
+: 1620137440:0;gs
+: 1620137448:0;ga . 
+: 1620137449:0;gs
+: 1620137466:0;git restore --staged config/env/development.js
+: 1620137466:0;gs
+: 1620137510:0;git commit -m "code review corrections"
+: 1620137511:0;gs
+: 1620137521:0;git push origin "mdm-26"
+: 1620137685:0;go
+: 1620196154:0;cd ~/general/code/mdm-server
+: 1620196155:0;ll
+: 1620196156:0;gs
+: 1620196166:0;git checkout master
+: 1620196170:0;gs
+: 1620196180:0;git stash
+: 1620196181:0;gs
+: 1620196187:0;git checkout master
+: 1620196227:0;git checkout -b "#3635"
+: 1620196227:0;gs
+: 1620196230:0;git stash pop
+: 1620196233:0;git add .
+: 1620196234:0;gs
+: 1620196244:0;git restore --staged config/env/development.js
+: 1620196246:0;git diff
+: 1620196250:0;git diff HEAD
+: 1620196257:0;GS
+: 1620196259:0;gs
+: 1620196283:0;git commit -m "fix: delete button in the wrong place"
+: 1620196284:0;gs
+: 1620196301:0;git push origin "#3635"
+: 1620196548:0;gs
+: 1620196551:0;git checkout master
+: 1620196552:0;gs
+: 1620196567:0;git checkout -b "3640"
+: 1620196568:0;gs
+: 1620197434:0;grunt
+: 1620199093:0;gs
+: 1620199096:0;git diff 
+: 1620199130:0;gs
+: 1620199137:0;git add public/i18n/resources-locale-tr.json
+: 1620199161:0;git commit -m "fix: missing translation(tr) for doKioskMode"
+: 1620199188:0;git push origin "#3640"
+: 1620199201:0;git push origin "3640"
+: 1620199211:0;git log -p
+: 1620199591:0;git checkout master
+: 1620199605:0;git checkout -b "#3629"
+: 1620199606:0;gs
+: 1620201361:0;grunt
+: 1620203885:0;dc restart
+: 1620203923:0;grunt
+: 1620204091:0;dc stop mdm-server_mongo_1
+: 1620204095:0;dc ps
+: 1620204106:0;d stop mdm-server_mongo_1
+: 1620204111:0;dc up
+: 1620204121:0;grunt
+: 1620206707:0;cd ~/general/code/mdm-server
+: 1620206708:0;ll
+: 1620206712:0;gs
+: 1620206723:0;git add config/env/development.js
+: 1620206726:0;git restore .
+: 1620206727:0;gs
+: 1620206732:0;git checkout master
+: 1620206757:0;git checkout "#3567"
+: 1620206761:0;gs
+: 1620206774:0;git restore --staged .
+: 1620206775:0;gs
+: 1620206777:0;git checkout "#3567"
+: 1620206782:0;git stash
+: 1620206784:0;git checkout "#3567"
+: 1620206787:0;git stash pop
+: 1620206806:0;git restore .vscode/
+: 1620206814:0;git add config/env/development.js
+: 1620206817:0;git restore .
+: 1620206817:0;gs
+: 1620206827:0;git clean -df
+: 1620206829:0;gs
+: 1620206846:0;git restore --staged config/env/development.js
+: 1620206847:0;gs
+: 1620208859:0;git diff
+: 1620208866:0;git add .
+: 1620208868:0;gs
+: 1620208878:0;git restore --staged config/env/development.js
+: 1620208878:0;gs
+: 1620208940:0;git commit -m "fix add modal bug"
+: 1620208947:0;git push origin "#3567"
+: 1620210859:0;jetbrains-toolbox
+: 1620212329:0;grunt	
+: 1620212360:0;gs
+: 1620212377:0;git add config/env/development.js
+: 1620212381:0;git clean -df
+: 1620212383:0;gs
+: 1620214999:0;jetbrains-toolbox
+: 1620215053:0;cd general/code
+: 1620215054:0;ls
+: 1620215059:0;ls -la stagingdb
+: 1620215075:0;rm searchpackageBironceki.diff searchpackagefirst.diff searchpackageLast.diff
+: 1620215077:0;ls
+: 1620215078:0;ls -al
+: 1620215092:0;git clone https://gitlab.dakikyazilim.com/mdm/bormdmandroid
+: 1620215120:0;git clone https://gitlab.dakikyazilim.com:10443/mdm/bormdmandroid.git
+: 1620215134:0;git clone https://gitlab.dakikyazilim.com/mdm/bormdmandroid.git
+: 1620221570:0;gs
+: 1620221573:0;ll
+: 1620223199:0;cd 
+: 1620223200:0;cd go
+: 1620223207:0;godoc builtin
+: 1620223220:0;go
+: 1620223231:0;$GOPATH
+: 1620223321:0;export PATH=$PATH:$GOPATH/bin
+: 1620223323:0;go
+: 1620223333:0;go --help
+: 1620223337:0;godoc
+: 1620223400:0;sudo vim /home/halilbrhmtrn/.profile
+: 1620223424:0;source /home/halilbrhmtrn/.profile
+: 1620223429:0;go --help
+: 1620223431:0;go -v
+: 1620223433:0;godoc
+: 1620223445:0;go doc builtin
+: 1620290815:0;sudo add-apt-repository multiverse\
+
+: 1620290826:0;sudo apt update\
+
+: 1620295228:0;sudo apt-get install unrar\
+
+: 1620295243:0;cd Downloads
+: 1620295244:0;ls
+: 1620295287:0;unrar lt sanet.st_Developer\ To\ Architect\ Mastering\ Software\ Architecture.part05\ \(1\).rar
+: 1620295301:0;unrar lt sanet.st_Developer\ To\ Architect\ Mastering\ Software\ Architecture.part05.rar 
+: 1620295312:0;unrar x sanet.st_Developer\ To\ Architect\ Mastering\ Software\ Architecture.part05\ \(1\).rar
+: 1620295324:0;unrar lt sanet.st_Developer_To_Architect_Mastering_Software_Architecture.part06.rar
+: 1620300527:0;dc down
+: 1620300533:0;dc up -d 
+: 1620306955:0;grunt
+: 1620307067:0;gs
+: 1620307076:0;git pull
+: 1620307113:0;git checkout master
+: 1620307120:0;gs stash
+: 1620307128:0;git checkout master
+: 1620307131:0;gs
+: 1620307138:0;git stash
+: 1620307139:0;gs
+: 1620307143:0;git checkout master
+: 1620307155:0;git pull
+: 1620307175:0;git log -p
+: 1620307266:0;git stash pop
+: 1620311046:0;code .
+: 1620366509:0;cd ~/general/code/mdm-server
+: 1620366510:0;ll
+: 1620366513:0;code .
+: 1620366555:0;dc restart
+: 1620366839:0;robo3t
+: 1620386715:0;grunt
+: 1620386751:0;cd ~/general/code/mdm-server
+: 1620386752:0;gs
+: 1620398554:0;cd ~/general/code/mdm-server
+: 1620398693:0;dc restart
+: 1620398699:0;code .
+: 1620399241:0;robo3t
+: 1620482745:0;cd migrations
+: 1620482785:0;./migrate.sh migrationex.js
+: 1620482905:0;./migrate.sh
+: 1620482908:0;./migrate.sh up
+: 1620482917:0;cd ..
+: 1620482925:0;./migrations/migrate.sh up
+: 1620484380:0;gs
+: 1620484462:0;git checkout "#3629"
+: 1620484464:0;gs
+: 1620484472:0;git log -p
+: 1620484481:0;git add migrations/0055-change-duplicate-policy-features.js
+: 1620484482:0;gs
+: 1620484508:0;git commit -m "fix: adding policy features with same name"
+: 1620484508:0;gs
+: 1620484522:0;git push origin "#3629"
+: 1620484679:0;gs
+: 1620484705:0;git add migrations/0055-change-duplicate-policy-features.js
+: 1620484731:0;git commit -m "remove test call"
+: 1620484741:0;git push origin "#3629"
+: 1620590663:0;vim betus
+: 1620632386:0;ls -al
+: 1620632434:0;cd ~/general/code/mdm-server
+: 1620632437:0;ls -al
+: 1620632448:0;code .
+: 1620637498:0;git log -p
+: 1620638308:0;./migrations/migrate.sh up
+: 1620638315:0;dc restart
+: 1620638329:0;grunt
+: 1620638403:0;./migrations/migrate.sh up
+: 1620638463:0;robo3t
+: 1620639161:0;./migrations/migrate.sh up
+: 1620639232:0;docker restart mdm-server_mongo2.6_1
+: 1620639252:0;robo3t
+: 1620639509:0;./migrations/migrate.sh up
+: 1620639865:0;gs
+: 1620639876:0;git add migrations/0055-change-duplicate-policy-features.js
+: 1620639877:0;gs
+: 1620639879:0;git diff
+: 1620639883:0;gd HEAD
+: 1620639898:0;git commit "adding unique constraint"
+: 1620639908:0;git commit -m "adding unique constraint"
+: 1620639911:0;ll
+: 1620639912:0;gs
+: 1620639920:0;git push origin "#3629"
+: 1620641489:0;gs
+: 1620641530:0;git add .
+: 1620641533:0;gs
+: 1620641545:0;git restore --staged config/env/development.js
+: 1620641546:0;gs
+: 1620641569:0;git commit -m "added ui handlers"
+: 1620641569:0;gs
+: 1620641580:0;git push origin "#3629"
+: 1620645412:0;gs
+: 1620645420:0;git checkout "#3567"
+: 1620645421:0;gs
+: 1620645424:0;git stash
+: 1620645428:0;git checkout "#3567"
+: 1620645434:0;git stash pop
+: 1620645435:0;gs
+: 1620645444:0;cd ~/general/code/mdm-server
+: 1620645445:0;grunt
+: 1620647540:0;gs
+: 1620647555:0;git add public/modules/generic/services/open.add.modal.client.service.js
+: 1620647557:0;gd HEAD
+: 1620647589:0;git commit -m "fix:unified interface for dropdown of android and ios"
+: 1620647603:0;git push origin "#3567"
+: 1620717476:0;dc restart
+: 1620717489:0;grunt
+: 1620717599:0;node scripts/create_or_update_defaults.js mean
+: 1620723300:0;gs
+: 1620723306:0;git diff 
+: 1620723415:0;git add public/modules/policies/views/templates/bor.ios.features.to.restrict.directive.template.client.view.html
+: 1620723416:0;gs
+: 1620723437:0;git commit -m "fix unified ui ios"
+: 1620723446:0;git push origin "#3567"
+: 1620723463:0;git log -p
+: 1620736099:0;gem install bundler
+: 1620736110:0;ruby -v
+: 1620736127:0;$ sudo apt-get install ruby-full\
+
+: 1620736129:0;sudo apt-get install ruby-full\
+
+: 1620736500:0;gem install bundler
+: 1620736506:0;sudo gem install bundler
+: 1620736983:0;cd general/code
+: 1620736987:0;git clone https://github.com/earn-easy/earn-easy.github.io.git
+: 1620736991:0;ls
+: 1620736994:0;cd earn-easy.github.io
+: 1620737599:0;jekyll new
+: 1620737608:0;gem install jekyll
+: 1620737619:0;sudo gem install jekyll
+: 1620737810:0;jekyll new 
+: 1620737815:0;jekyll new .
+: 1620737832:0;gs
+: 1620737850:0;jekyll serve
+: 1620737886:0;code .
+: 1620738275:0;gem "jekyll-theme-so-simple"
+: 1620738331:0;bundle install
+: 1620738424:0;jekyll serve
+: 1620739965:0;git add .
+: 1620739994:0;git commit -m "initial commit jeklly-blog"
+: 1620740037:0;git push -u origin master 
+: 1620740273:0;cp ~/Downloads/google58e4a1d15e370a88.html .
+: 1620740278:0;git add .
+: 1620740278:0;gs
+: 1620740287:0;git commit -m "google-verification"
+: 1620740290:0;git push origin master
+: 1620750614:0;bundle install
+: 1620750638:0;bundle update
+: 1620750672:0;jekyll serve
+: 1620750693:0;bundle exec
+: 1620750740:0;bundle install
+: 1620750753:0;bundle update jekyll
+: 1620750758:0;bundle exec
+: 1620750765:0;jekyll serve
+: 1620751075:0;bundle install
+: 1620751132:0;jekyll serve
+: 1620751175:0;bundle install
+: 1620751178:0;jekyll serve
+: 1620751202:0;gs
+: 1620751204:0;git add .
+: 1620751210:0;git commit -m "remote theme"
+: 1620751217:0;git push -u origin master
+: 1620842747:0;cd Downloads
+: 1620842756:0;ll TetaCourse.Com-Pragmatic-System-Design
+: 1620843624:0;xdg-open
+: 1620843632:0;xdg-open .
+: 1620918498:0;smplayer --help
+: 1620918510:0;smplayer -help
+: 1620931946:0;uname -a
+: 1620931957:0;cat /etc/os-release
+: 1620934218:0;git clone https://github.com/halilbrhmtrn/dotfiles.git
+: 1620934230:0;cd dotfiles
+: 1620934261:0;ll ~/.dotfiles
+: 1620934279:0;ll ~/.dotfiles/zsh
+: 1620934289:0;ll ~/.dotfiles/tmux
+: 1620934307:0;cat ~/.dotfiles/tmux/.tmux.conf
+: 1620934342:0;cd ~/.dotfiles/zsh/.zsh
+: 1620934343:0;ls
+: 1620934348:0;cat git-prompt.sh
+: 1620934355:0;cat notifyosd.zsh
+: 1620934361:0;cat prompt
+: 1620934363:0;cd ..
+: 1620934364:0;ls
+: 1620934366:0;ls -al
+: 1620934381:0;cd ..
+: 1620934396:0;cp -r zsh ~/dotfiles

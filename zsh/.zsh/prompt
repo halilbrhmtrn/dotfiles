@@ -1,0 +1,30 @@
+# vim: ft=zsh
+source ~/.zsh/git-prompt.sh
+autoload -Uz colors && colors
+
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWSTASHSTATE=true
+
+ssh_hostname() {
+  if [ -n "${SSH_CONNECTION+1}" ]; then
+    echo "%{$fg[yellow]%}%B%m%b%{$reset_color%} "
+  fi
+}
+
+local return_code="%(?..%{$fg[red]%}↳ %?%{$reset_color%})"
+local time='%T'
+local current_dir="%{$fg[blue]%}%{$terminfo[bold]%}%~%{$reset_color%}"
+
+local before="${return_code}
+%{$fg[blue]%}%B#%b ${time} in ${current_dir} %{$fg[yellow]%}"
+local after="%{$reset_color%}
+$(ssh_hostname)%{$fg[green]%}%B$%b%{$reset_color%} "
+local git="(%s)"
+
+precmd () { 
+	__git_ps1 "$before" "$after" "$git"
+	printf "\e]2;%s\a" "${PWD/#$HOME/~}" 
+}
+preexec() {
+  printf "\e]2;%s\a" "$1"
+}
